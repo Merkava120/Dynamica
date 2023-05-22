@@ -354,8 +354,7 @@
 			<Type>INTERFACE_CITY_BAR_REGULAR_TEXTURE</Type>
 			<Path>Art/Interface/CityBar/CityBar_Circle.tga</Path>
 		</InterfaceArtInfo>
-		<!-- trs.wcitybars: start -->
-		<!-- The DLL will swap these three paths with their narrow
+		<!-- advc.095: The DLL will swap these three paths with their narrow
 			 counterparts above when the Wide City Bars option is toggled.
 			 (Because the EXE will always use the type strings above to locate
 			 the path.) -->
@@ -371,7 +370,7 @@
 			<Type>INTERFACE_WIDE_CITY_BAR_MODEL</Type>
 			<Path>Art/Interface/CityBar/WideCityBar.nif</Path>
 		</InterfaceArtInfo>
-		<!-- trs.wcitybars: end -->
+		<!-- (advc.095 end) -->
 		<InterfaceArtInfo>
 			<Type>INTERFACE_CITY_PANEL</Type>
 			<Path>Art/Interface/MainScreen/CityScreen/PanelBG.dds</Path>
@@ -564,9 +563,13 @@
 			<Type>INTERFACE_TECH_CULTURE</Type>
 			<Path>Art/Interface/Screens/TechTree/Adjust_Culture.dds</Path>
 		</InterfaceArtInfo>
+		<!-- advc.120g: This was missing a comma and I've replaced 'Process/
+			 ProcessCulture.dds' (is that a fallback?) with 'Actions/
+			 Expose.dds'. What gets shown is the espionage icon from the atlas.
+			 -->
 		<InterfaceArtInfo>
 			<Type>INTERFACE_TECH_ESPIONAGE</Type>
-			<Path>Art/Interface/Buttons/Process/ProcessCulture.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,16</Path>
+			<Path>,Art/Interface/Buttons/Actions/Expose.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,16</Path>
 		</InterfaceArtInfo>
 		<InterfaceArtInfo>
 			<Type>INTERFACE_TECH_DEFENSIVEPACT</Type>
@@ -640,9 +643,17 @@
 			<Type>INTERFACE_TECH_WATERMOVES</Type>
 			<Path>Art/Interface/Screens/TechTree/Moves_For_WaterUnit.dds</Path>
 		</InterfaceArtInfo>
+		<!-- advc.002d: The non-atlas path was Ocean_Trade. Note that
+			 INTERFACE_TECH_WATERTRADE is used for all terrain trade effects -
+			 except Ocean; see below.-->
 		<InterfaceArtInfo>
 			<Type>INTERFACE_TECH_WATERTRADE</Type>
-			<Path>,Art/Interface/Screens/TechTree/Ocean_Trade.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,3</Path>
+			<Path>,Art/Interface/Screens/TechTree/Trade_On_Coast.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,3</Path>
+		</InterfaceArtInfo>
+		<!-- advc.002d: -->
+		<InterfaceArtInfo>
+			<Type>INTERFACE_TECH_DEEPWATERTRADE</Type>
+			<Path>,Art/Interface/Screens/TechTree/Ocean_Trade.dds,Art/Interface/Buttons/Mainmenu_Techscreen_Worldbuilder_Popups_Atlas.dds,1,3</Path>
 		</InterfaceArtInfo>
 		<InterfaceArtInfo>
 			<Type>INTERFACE_TECH_RIVERTRADE</Type>
@@ -1278,6 +1289,7 @@
 			<Type>SCROLL_DOWN_ARROW</Type>
 			<Path>Art/Interface/Buttons/down_arrow.dds</Path>
 		</InterfaceArtInfo>
+		<!-- BUG: start -->
 		<InterfaceArtInfo>
 			<Type>SCROLL_PAGE_UP_ARROW</Type>
 			<Path>Art/Interface/Buttons/page_up_arrow.dds</Path>
@@ -1298,6 +1310,7 @@
 			<Type>WHITE_CIRCLE_20</Type>
 			<Path>Art/Interface/Buttons/white_circle_20.dds</Path>
 		</InterfaceArtInfo>
+		<!-- BUG: end -->
 		<InterfaceArtInfo>
 			<Type>WHITE_CIRCLE_40</Type>
 			<Path>Art/Interface/Buttons/white_circle_40.dds</Path>
@@ -1686,13 +1699,12 @@
 		</InterfaceArtInfo>
 <!-- BUG - Wonders Tab - end -->			
 
-<!-- BUG - Main Interface - BUG Options Screen - Start -->
-		<!-- trs. Path was Art/BUG/BUGMantis.dds - which is now unused. -->
+<!-- BUG - Main Interface - BUG Options Screen - Start -->			
 		<InterfaceArtInfo>
 			<Type>BUG_OPTIONS_SCREEN_BUTTON</Type>
-			<Path>Art/Taurus/OptionsButton.dds</Path>
+			<Path>Art/BUG/options.dds</Path>
 		</InterfaceArtInfo>
-<!-- BUG - Main Interface - BUG Options Screen - end -->
+<!-- BUG - Main Interface - BUG Options Screen - end -->			
 
 		<InterfaceArtInfo>
 			<Type>QUESTION_MARK</Type>
