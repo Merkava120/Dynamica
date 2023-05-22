@@ -662,7 +662,7 @@ class CvPlayerDesc:
 				f.write("\tCivicOption=%s, Civic=%s\n" %(gc.getCivicOptionInfo(iCivicOptionLoop).getType(), gc.getCivicInfo(iCivic).getType()))
 
 			# write Attitude Extra
-			for i in range(gc.getMAX_PLAYERS()):
+			for i in range(gc.getMAX_CIV_PLAYERS()): # merkava typo fix
 				if pPlayer.AI_getAttitudeExtra(i) != 0:
 					f.write("\tAttitudePlayer=%d, AttitudeExtra=%d\n, (%s)" %(i, pPlayer.AI_getAttitudeExtra(i), gc.getPlayer(i).getName().encode(fileencoding)))
 
