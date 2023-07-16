@@ -4,6 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Build Infos -->
+
 <Civ4BuildInfos xmlns="x-schema:CIV4UnitSchema.xml">
 	<BuildInfos>
 		<BuildInfo>
@@ -59,7 +60,7 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-					<iTime>600</iTime>
+					<iTime>400</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
@@ -70,6 +71,7 @@
 					<iProduction>30</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
+				<!-- kekm.9 -->
 				<FeatureStruct>
 					<FeatureType>FEATURE_FALLOUT</FeatureType>
 					<PrereqTech>TECH_ECOLOGY</PrereqTech>
@@ -108,7 +110,7 @@
 			<Type>BUILD_WHALING_BOATS</Type>
 			<Description>TXT_KEY_BUILD_WHALING_BOATS</Description>
 			<Help/>
-			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+			<PrereqTech>TECH_OPTICS</PrereqTech>
 			<iTime>0</iTime>
 			<iCost>0</iCost>
 			<bKill>1</bKill>
@@ -138,7 +140,7 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-					<iTime>600</iTime>
+					<iTime>400</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
@@ -149,6 +151,7 @@
 					<iProduction>30</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
+				<!-- kekm.9 -->
 				<FeatureStruct>
 					<FeatureType>FEATURE_FALLOUT</FeatureType>
 					<PrereqTech>TECH_ECOLOGY</PrereqTech>
@@ -179,7 +182,7 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-					<iTime>600</iTime>
+					<iTime>400</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
@@ -190,6 +193,7 @@
 					<iProduction>30</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
+				<!-- kekm.9 -->
 				<FeatureStruct>
 					<FeatureType>FEATURE_FALLOUT</FeatureType>
 					<PrereqTech>TECH_ECOLOGY</PrereqTech>
@@ -209,7 +213,9 @@
 			<Type>BUILD_LUMBERMILL</Type>
 			<Description>TXT_KEY_BUILD_LUMBERMILL</Description>
 			<Help/>
-			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<!-- K-Mod: was REPLACEABLE_PARTS -->
+			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<!-- advc.902: was 800 -->
 			<iTime>500</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -239,7 +245,7 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-					<iTime>600</iTime>
+					<iTime>400</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
@@ -250,6 +256,7 @@
 					<iProduction>30</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
+				<!-- kekm.9 -->
 				<FeatureStruct>
 					<FeatureType>FEATURE_FALLOUT</FeatureType>
 					<PrereqTech>TECH_ECOLOGY</PrereqTech>
@@ -265,12 +272,13 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<Button>,Art/Interface/Buttons/Builds/BuildWindMill.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,5,8</Button>
 		</BuildInfo>
+		<!-- advc.902: Reduced build time from 800 to 400. -->
 		<BuildInfo>
 			<Type>BUILD_WATERMILL</Type>
 			<Description>TXT_KEY_BUILD_WATERMILL</Description>
 			<Help/>
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
-			<iTime>500</iTime>
+			<iTime>400</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
 			<ImprovementType>IMPROVEMENT_WATERMILL</ImprovementType>
@@ -280,7 +288,7 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-					<iTime>600</iTime>
+					<iTime>400</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
@@ -291,6 +299,7 @@
 					<iProduction>30</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
+				<!-- kekm.9 -->
 				<FeatureStruct>
 					<FeatureType>FEATURE_FALLOUT</FeatureType>
 					<PrereqTech>TECH_ECOLOGY</PrereqTech>
@@ -321,7 +330,7 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-					<iTime>600</iTime>
+					<iTime>400</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
@@ -332,6 +341,7 @@
 					<iProduction>30</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
+				<!-- kekm.9 -->
 				<FeatureStruct>
 					<FeatureType>FEATURE_FALLOUT</FeatureType>
 					<PrereqTech>TECH_ECOLOGY</PrereqTech>
@@ -362,7 +372,7 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-					<iTime>600</iTime>
+					<iTime>400</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
@@ -373,6 +383,7 @@
 					<iProduction>30</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
+				<!-- kekm.9 -->
 				<FeatureStruct>
 					<FeatureType>FEATURE_FALLOUT</FeatureType>
 					<PrereqTech>TECH_ECOLOGY</PrereqTech>
@@ -403,7 +414,7 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-					<iTime>600</iTime>
+					<iTime>400</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
@@ -414,6 +425,7 @@
 					<iProduction>30</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
+				<!-- kekm.9 -->
 				<FeatureStruct>
 					<FeatureType>FEATURE_FALLOUT</FeatureType>
 					<PrereqTech>TECH_ECOLOGY</PrereqTech>
@@ -440,6 +452,7 @@
 			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
 			<RouteType>NONE</RouteType>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<!-- kekm.9 -->
 			<FeatureStructs>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FALLOUT</FeatureType>
@@ -471,7 +484,7 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-					<iTime>600</iTime>
+					<iTime>400</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
@@ -482,6 +495,7 @@
 					<iProduction>30</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
+				<!-- kekm.9 -->
 				<FeatureStruct>
 					<FeatureType>FEATURE_FALLOUT</FeatureType>
 					<PrereqTech>TECH_ECOLOGY</PrereqTech>
@@ -531,7 +545,7 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-					<iTime>600</iTime>
+					<iTime>400</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
@@ -542,6 +556,7 @@
 					<iProduction>30</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
+				<!-- kekm.9 -->
 				<FeatureStruct>
 					<FeatureType>FEATURE_FALLOUT</FeatureType>
 					<PrereqTech>TECH_ECOLOGY</PrereqTech>
@@ -561,7 +576,7 @@
 			<Type>BUILD_COTTAGE</Type>
 			<Description>TXT_KEY_BUILD_COTTAGE</Description>
 			<Help/>
-			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<PrereqTech>TECH_NOT_YET</PrereqTech>
 			<iTime>400</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -572,7 +587,7 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-					<iTime>600</iTime>
+					<iTime>400</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
@@ -583,6 +598,7 @@
 					<iProduction>30</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
+				<!-- kekm.9 -->
 				<FeatureStruct>
 					<FeatureType>FEATURE_FALLOUT</FeatureType>
 					<PrereqTech>TECH_ECOLOGY</PrereqTech>
@@ -602,13 +618,14 @@
 			<Type>BUILD_FORT</Type>
 			<Description>TXT_KEY_BUILD_FORT</Description>
 			<Help/>
-			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
-			<iTime>900</iTime>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<iTime>1000</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
 			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
 			<RouteType>NONE</RouteType>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<!-- kekm.9 -->
 			<FeatureStructs>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FALLOUT</FeatureType>
@@ -640,7 +657,7 @@
 				<FeatureStruct>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-					<iTime>600</iTime>
+					<iTime>400</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>1</bRemove>
 				</FeatureStruct>
@@ -710,6 +727,7 @@
 			<Type>BUILD_FOREST_PRESERVE</Type>
 			<Description>TXT_KEY_BUILD_FOREST_PRESERVE</Description>
 			<Help/>
+			<!-- advc.901: was SciMethod -->
 			<PrereqTech>TECH_BIOLOGY</PrereqTech>
 			<iTime>800</iTime>
 			<iCost>0</iCost>

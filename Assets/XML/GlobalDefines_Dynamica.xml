@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+
+<!-- This file is for options related to Dynamica -->
+
+<Civ4Defines xmlns="x-schema:CIV4GlobalDefinesSchema.xml">
+
+	<!-- DYNAMICA GENERAL SETTINGS -->
+	<!-- Set to 1 to have beakers accumulate naturally with the dynamic system; set to 0 to disable this feature -->
+	<Define> 
+		<DefineName>DYNAMIC_TECHS</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	
+	
+	
+	<!-- DYNAMICA FINE TUNING -->
+	
+	<!-- beakers accumulated from combat. Base, plus/minus RAND -->
+	<Define>
+		<DefineName>BEAKERS_FROM_COMBAT</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>BEAKERS_FROM_COMBAT_RAND</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	
+	<!-- These are also from combat (same spot as above) but go toward unit upgrades instead of enemy unit requirements. -->
+	<Define>
+		<DefineName>BEAKERS_FOR_UPGRADE</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>BEAKERS_FOR_UPGRADE_RAND</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	
+	<!-- These come from the plot a unit rests in each turn, and go toward the first found of these in order: techs for builds for coastal improvements if the tile is coastal, techs to reveal bonuses on the tile or build improvements to harvest the bonus, techs related to builds related to features on the tile, techs for builds requiring the terrain of the plot, or lastly, techs related to builds of an improvement already on the plot. -->
+	<Define>
+		<DefineName>BEAKERS_FROM_PLOT</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>BEAKERS_FROM_PLOT_RAND</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	
+	
+	<!-- DEFINES CHANGED FROM VANILLA -->
+	<Define>
+		<DefineName>MAX_CIVIC_OPTIONS</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MAX_NATIONAL_WONDERS_PER_CITY</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>CONSCRIPT_MIN_CITY_POPULATION</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MAX_DISTANCE_CITY_MAINTENANCE</DefineName>
+		<iDefineIntVal>25</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>COMBAT_DAMAGE</DefineName>
+		<iDefineIntVal>20</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>AIR_COMBAT_DAMAGE</DefineName>
+		<iDefineIntVal>30</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INTERCEPTION_MAX_ROUNDS</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MAX_INTERCEPTION_DAMAGE</DefineName>
+		<iDefineIntVal>50</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MIN_INTERCEPTION_DAMAGE</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>COLLATERAL_COMBAT_DAMAGE</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>HILLS_EXTRA_DEFENSE</DefineName>
+		<iDefineIntVal>25</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>RIVER_ATTACK_MODIFIER</DefineName>
+		<iDefineIntVal>-25</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>AMPHIB_ATTACK_MODIFIER</DefineName>
+		<iDefineIntVal>-50</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>ENEMY_HEAL_RATE</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>NEUTRAL_HEAL_RATE</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>FRIENDLY_HEAL_RATE</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>CITY_HEAL_RATE</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_BASE_FREE_UNITS</DefineName>
+		<iDefineIntVal>4</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_BASE_FREE_MILITARY_UNITS</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_FREE_UNITS_POPULATION_PERCENT</DefineName>
+		<iDefineIntVal>24</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_FREE_MILITARY_UNITS_POPULATION_PERCENT</DefineName>
+		<iDefineIntVal>12</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_GOLD_PER_UNIT</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_FREE_OUTSIDE_UNITS</DefineName>
+		<iDefineIntVal>4</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_OUTSIDE_UNIT_GOLD_PERCENT</DefineName>
+		<iDefineIntVal>50</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>ANIMAL_MAX_XP_VALUE</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>BARBARIAN_MAX_XP_VALUE</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MAX_EXPERIENCE_AFTER_UPGRADE</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MAX_WITHDRAWAL_PROBABILITY</DefineName>
+		<iDefineIntVal>90</iDefineIntVal>
+	</Define>
+</Civ4Defines>
