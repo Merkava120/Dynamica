@@ -1,7 +1,7 @@
 #CvModName.py
 
-modName = "AdvCiv" # advc.009
-displayName = "AdvCiv" #advc.009
+modName = "AdvCiv Plus" # advc.009
+displayName = "AdvCiv Plus" #advc.009
 modVersion = ""
 
 civName = "BtS"

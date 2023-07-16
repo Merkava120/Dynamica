@@ -252,7 +252,6 @@ class CvEventManager:
 		
 	def onUpdate(self, argsList):
 		'Called every frame'
-		# advc (note): I don't think this is ever called(?).
 		fDeltaTime = argsList[0]
 		
 		# allow camera to be updated
@@ -842,6 +841,20 @@ class CvEventManager:
 		'City Population Growth'
 		pCity = argsList[0]
 		iPlayer = argsList[1]
+
+## Exp Trait Start ##
+
+		player = PyPlayer(pCity.getOwner())
+		pPlayer = gc.getPlayer(pCity.getOwner())
+		iTrait = CvUtil.findInfoTypeNum(gc.getTraitInfo,gc.getNumTraitInfos(),'TRAIT_EXPANSIVE')
+		##iFood = 2 + pCity.getPopulation()/5
+		iFood = pCity.growthThreshold()/10
+
+		if (pPlayer.hasTrait(iTrait)):
+                        pCity.changeFood(iFood)
+
+## Exp Trait End ##
+		
 		# <advc.007>
 		if (not self.__LOG_CITY_GROWTH):
 			return # </advc.007>
