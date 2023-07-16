@@ -1078,10 +1078,14 @@ class CvVictoryScreen:
 		# <advc.104> AI settings
 		bLegacyAI = g.useKModAI()
 		szAIOption = None
-		if g.isOption(GameOptionTypes.GAMEOPTION_AGGRESSIVE_AI) and bLegacyAI:
-			szAIOption = localText.getText("TXT_KEY_GAME_OPTION_AGGRESSIVE_AI",())
-		elif bLegacyAI: # Only possible if Aggressive AI disabled through XML
-			szAIOption = "Non-Aggressive AI"
+		if bLegacyAI:
+                        if g.isOption(GameOptionTypes.GAMEOPTION_AGGRESSIVE_AI):
+                                szAIOption = localText.getText("TXT_KEY_GAME_OPTION_AGGRESSIVE_AI",())
+                        else:
+                                "Non-Aggressive AI(Legacy)"
+		else: # Only possible if Aggressive AI disabled through XML
+                        if g.isOption(GameOptionTypes.GAMEOPTION_AGGRESSIVE_AI):
+                                szAIOption = "Aggressive AI"
 		if not szAIOption is None:
 			screen.appendListBoxStringNoUpdate(szOptionsTable, szAIOption, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 		# </advc.104>
