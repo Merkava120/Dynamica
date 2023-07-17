@@ -8,6 +8,7 @@
 	<HandicapInfos>
 		<!-- advc.126: Added free tech for later eras to
 			 Settler and Chieftain. -->
+		<!-- merk.nomad: upped animal spawns...by a LOT -->
 		<HandicapInfo>
 			<Type>HANDICAP_SETTLER</Type>
 			<Description>TXT_KEY_HANDICAP_SETTLER</Description>
@@ -58,7 +59,7 @@
 			<iAttitudeChange>3</iAttitudeChange>
 			<iNoTechTradeModifier>100</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>-100</iTechTradeKnownModifier>
-			<iUnownedTilesPerGameAnimal>100</iUnownedTilesPerGameAnimal>
+			<iUnownedTilesPerGameAnimal>20</iUnownedTilesPerGameAnimal>
 			<iUnownedTilesPerBarbarianUnit>150</iUnownedTilesPerBarbarianUnit>
 			<iUnownedWaterTilesPerBarbarianUnit>750</iUnownedWaterTilesPerBarbarianUnit>
 			<iUnownedTilesPerBarbarianCity>160</iUnownedTilesPerBarbarianCity>
@@ -236,7 +237,7 @@
 			<!-- advc.251: was 90 -->
 			<iNoTechTradeModifier>85</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>-50</iTechTradeKnownModifier>
-			<iUnownedTilesPerGameAnimal>80</iUnownedTilesPerGameAnimal>
+			<iUnownedTilesPerGameAnimal>15</iUnownedTilesPerGameAnimal>
 			<iUnownedTilesPerBarbarianUnit>100</iUnownedTilesPerBarbarianUnit>
 			<iUnownedWaterTilesPerBarbarianUnit>600</iUnownedWaterTilesPerBarbarianUnit>
 			<iUnownedTilesPerBarbarianCity>150</iUnownedTilesPerBarbarianCity>
@@ -390,7 +391,7 @@
 			<!-- advc.251: was 80 -->
 			<iNoTechTradeModifier>75</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>-25</iTechTradeKnownModifier>
-			<iUnownedTilesPerGameAnimal>60</iUnownedTilesPerGameAnimal>
+			<iUnownedTilesPerGameAnimal>12</iUnownedTilesPerGameAnimal>
 			<iUnownedTilesPerBarbarianUnit>80</iUnownedTilesPerBarbarianUnit>
 			<iUnownedWaterTilesPerBarbarianUnit>550</iUnownedWaterTilesPerBarbarianUnit>
 			<iUnownedTilesPerBarbarianCity>140</iUnownedTilesPerBarbarianCity>
@@ -520,7 +521,7 @@
 			<!-- advc.251: was 70 -->
 			<iNoTechTradeModifier>64</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
-			<iUnownedTilesPerGameAnimal>50</iUnownedTilesPerGameAnimal>
+			<iUnownedTilesPerGameAnimal>10</iUnownedTilesPerGameAnimal>
 			<iUnownedTilesPerBarbarianUnit>60</iUnownedTilesPerBarbarianUnit>
 			<iUnownedWaterTilesPerBarbarianUnit>500</iUnownedWaterTilesPerBarbarianUnit>
 			<iUnownedTilesPerBarbarianCity>130</iUnownedTilesPerBarbarianCity>
@@ -644,7 +645,7 @@
 			<iNoTechTradeModifier>56</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
 			<!-- advc.300: was 40 -->
-			<iUnownedTilesPerGameAnimal>45</iUnownedTilesPerGameAnimal>
+			<iUnownedTilesPerGameAnimal>9</iUnownedTilesPerGameAnimal>
 			<iUnownedTilesPerBarbarianUnit>50</iUnownedTilesPerBarbarianUnit>
 			<iUnownedWaterTilesPerBarbarianUnit>450</iUnownedWaterTilesPerBarbarianUnit>
 			<iUnownedTilesPerBarbarianCity>120</iUnownedTilesPerBarbarianCity>
@@ -771,7 +772,7 @@
 			<iNoTechTradeModifier>48</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
 			<!-- advc.300: was 35 -->
-			<iUnownedTilesPerGameAnimal>40</iUnownedTilesPerGameAnimal>
+			<iUnownedTilesPerGameAnimal>8</iUnownedTilesPerGameAnimal>
 			<!-- advc.300: was 40 -->
 			<iUnownedTilesPerBarbarianUnit>45</iUnownedTilesPerBarbarianUnit>
 			<iUnownedWaterTilesPerBarbarianUnit>400</iUnownedWaterTilesPerBarbarianUnit>
@@ -924,7 +925,7 @@
 			<iNoTechTradeModifier>40</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
 			<!-- advc.300: was 30 -->
-			<iUnownedTilesPerGameAnimal>35</iUnownedTilesPerGameAnimal>
+			<iUnownedTilesPerGameAnimal>6</iUnownedTilesPerGameAnimal>
 			<!-- advc.300: was 35 -->
 			<iUnownedTilesPerBarbarianUnit>40</iUnownedTilesPerBarbarianUnit>
 			<iUnownedWaterTilesPerBarbarianUnit>350</iUnownedWaterTilesPerBarbarianUnit>
@@ -1084,7 +1085,7 @@
 			<iNoTechTradeModifier>32</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
 			<!-- advc.300: was 25 -->
-			<iUnownedTilesPerGameAnimal>30</iUnownedTilesPerGameAnimal>
+			<iUnownedTilesPerGameAnimal>5</iUnownedTilesPerGameAnimal>
 			<!-- advc.300: was 30 -->
 			<iUnownedTilesPerBarbarianUnit>35</iUnownedTilesPerBarbarianUnit>
 			<iUnownedWaterTilesPerBarbarianUnit>300</iUnownedWaterTilesPerBarbarianUnit>
@@ -1249,7 +1250,7 @@
 			<iNoTechTradeModifier>24</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
 			<!-- advc.300: was 20 -->
-			<iUnownedTilesPerGameAnimal>25</iUnownedTilesPerGameAnimal>
+			<iUnownedTilesPerGameAnimal>4</iUnownedTilesPerGameAnimal>
 			<!-- advc.300: was 25 -->
 			<iUnownedTilesPerBarbarianUnit>30</iUnownedTilesPerBarbarianUnit>
 			<iUnownedWaterTilesPerBarbarianUnit>250</iUnownedWaterTilesPerBarbarianUnit>
