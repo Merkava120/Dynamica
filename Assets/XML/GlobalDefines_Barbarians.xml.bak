@@ -93,7 +93,7 @@
 	<!-- For water areas, the number of animals is divided by this. -->
 	<Define>
 		<DefineName>WATER_ANIMALS_DIVISOR</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>3</iDefineIntVal>
 	</Define>
 	
 	<!-- Added to spawn value if native feature is on tile. Value also includes a rand(1000) and the unit's speciic spawn weight  -->

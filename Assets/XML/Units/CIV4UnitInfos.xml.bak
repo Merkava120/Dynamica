@@ -110,8 +110,22 @@
 			<iTradeMultiplier>0</iTradeMultiplier>
 			<iGreatWorkCulture>0</iGreatWorkCulture>
 			<iEspionagePoints>0</iEspionagePoints>
-			<TerrainImpassables />
-			<FeatureImpassables />
+			<TerrainImpassables>
+				<TerrainImpassable>
+					<TerrainType>TERRAIN_TUNDRA</TerrainType>
+					<bTerrainImpassable>1</bTerrainImpassable>
+				</TerrainImpassable>
+				<TerrainImpassable>
+					<TerrainType>TERRAIN_SNOW</TerrainType>
+					<bTerrainImpassable>1</bTerrainImpassable>
+				</TerrainImpassable>
+			</TerrainImpassables>
+			<FeatureImpassables>
+				<FeatureImpassable>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<bFeatureImpassable>1</bFeatureImpassable>
+				</FeatureImpassable>
+			</FeatureImpassables>
 			<TerrainPassableTechs />
 			<FeaturePassableTechs />
 			<iCombat>2</iCombat>
@@ -206,7 +220,7 @@
 			<Strategy>TXT_KEY_UNIT_ANIMAL_STRATEGY</Strategy>
 			<Advisor>NONE</Advisor>
 			<bAnimal>1</bAnimal>
-			<iSpawnChannel>2</iSpawnChannel>
+			<iSpawnChannel>-1</iSpawnChannel>
 			<iSpawnWeight>-200</iSpawnWeight>
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
@@ -294,8 +308,18 @@
 			<iTradeMultiplier>0</iTradeMultiplier>
 			<iGreatWorkCulture>0</iGreatWorkCulture>
 			<iEspionagePoints>0</iEspionagePoints>
-			<TerrainImpassables />
-			<FeatureImpassables />
+			<TerrainImpassables>
+				<TerrainImpassable>
+					<TerrainType>TERRAIN_DESERT</TerrainType>
+					<bTerrainImpassable>1</bTerrainImpassable>
+				</TerrainImpassable>
+			</TerrainImpassables>
+			<FeatureImpassables>
+				<FeatureImpassable>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<bFeatureImpassable>1</bFeatureImpassable>
+				</FeatureImpassable>
+			</FeatureImpassables>
 			<TerrainPassableTechs />
 			<FeaturePassableTechs />
 			<iCombat>3</iCombat>
@@ -394,7 +418,7 @@
 			<Strategy>TXT_KEY_UNIT_ANIMAL_STRATEGY</Strategy>
 			<Advisor>NONE</Advisor>
 			<bAnimal>1</bAnimal>
-			<iSpawnChannel>1</iSpawnChannel>
+			<iSpawnChannel>2</iSpawnChannel>
 			<iSpawnWeight>100</iSpawnWeight>
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
@@ -514,7 +538,7 @@
 			<iAnimalCombat>0</iAnimalCombat>
 			<iHillsAttack>0</iHillsAttack>
 			<iHillsDefense>0</iHillsDefense>
-			<TerrainNatives />
+			<TerrainNatives/>
 			<FeatureNatives>
 				<FeatureNative>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -578,7 +602,7 @@
 			<Strategy>TXT_KEY_UNIT_ANIMAL_STRATEGY</Strategy>
 			<Advisor>NONE</Advisor>
 			<bAnimal>1</bAnimal>
-			<iSpawnChannel>3</iSpawnChannel>
+			<iSpawnChannel>-1</iSpawnChannel>
 			<iSpawnWeight>300</iSpawnWeight>
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
@@ -666,8 +690,18 @@
 			<iTradeMultiplier>0</iTradeMultiplier>
 			<iGreatWorkCulture>0</iGreatWorkCulture>
 			<iEspionagePoints>0</iEspionagePoints>
-			<TerrainImpassables />
-			<FeatureImpassables />
+			<TerrainImpassables>
+				<TerrainImpassable>
+					<TerrainType>TERRAIN_DESERT</TerrainType>
+					<bTerrainImpassable>1</bTerrainImpassable>
+				</TerrainImpassable>
+			</TerrainImpassables>
+			<FeatureImpassables>
+				<FeatureImpassable>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<bFeatureImpassable>1</bFeatureImpassable>
+				</FeatureImpassable>
+			</FeatureImpassables>
 			<TerrainPassableTechs />
 			<FeaturePassableTechs />
 			<iCombat>1</iCombat>
