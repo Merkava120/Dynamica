@@ -12,21 +12,21 @@
 	<!-- how many eras. Advc default 1 -->
 	<Define> 
 		<DefineName>BARBS_BEHIND_ERAS</DefineName>
-		<iDefineIntVal>3</iDefineIntVal>
+		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 	<!-- Animal spawning condition 1: If the barbarian 'peak land ratio' is less than this per 100 (default 30) -->
 	<Define> 
 		<DefineName>ANIMAL_BARB_LAND_RATIO</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>30</iDefineIntVal>
 	</Define>
 	<!-- Animal spawning condition 2: ANIMAL_CITY_MULT times the number of cities in the game is less than ANIMAL_ALIVE_PLAYERS_MULT times the number of players who are alive (default 2 and 3) -->
 	<Define> 
 		<DefineName>ANIMAL_CITY_MULT</DefineName>
-		<iDefineIntVal>2</iDefineIntVal>
+		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 	<Define> 
 		<DefineName>ANIMAL_ALIVE_PLAYERS_MULT</DefineName>
-		<iDefineIntVal>3</iDefineIntVal>
+		<iDefineIntVal>5</iDefineIntVal>
 	</Define>
 	
 	<!-- multiply start turn by this, then divide by 100, if it's advanced start for barbarians and humans. Default 50 -->
@@ -58,8 +58,7 @@
 		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
 	
-	<!-- require a multiple of this and the number of cities existing to be greater than the number of players to spawn animals
-	 default 100, setting to 0 disables the city requirement, between 0 and 100 is a percent -->	
+	<!-- number of cities * this / 100 < number of civs means don't spawn animals yet. Set to 0 to completely ignore.  -->	
 	<Define>
 		<DefineName>CITIES_BEFORE_ANIMALS_MULT</DefineName>
 		<iDefineIntVal>0</iDefineIntVal>
@@ -69,21 +68,38 @@
 		<DefineName>ANIMALS_ON_EMPTY_LANDS_DIVISOR</DefineName>
 		<iDefineIntVal>2</iDefineIntVal>
 	</Define>
-	<!-- in the code for creating animals the iNeededAnimals is divided by this before actually placing them. Can change this to fine tune total number of animals. Default 5-->
+	<!-- in the code for creating animals the iNeededAnimals is divided by this before actually placing them. Can change this to fine tune total number of animals-->
 	<Define>
 		<DefineName>NEEDED_ANIMALS_DIVISOR</DefineName>
-		<iDefineIntVal>3</iDefineIntVal>
+		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 	<!-- continent must have more than this many cities for big groups of barbs to spawn. Set to -1 to not care. Default 0 -->
 	<Define>
 		<DefineName>ALLOW_BIG_GROUPS_WITH_CITIES</DefineName>
-		<iDefineIntVal>0</iDefineIntVal>
+		<iDefineIntVal>-1</iDefineIntVal>
 	</Define>
 	
 	<!-- animal units cannot move into tiles with more than this number of units (default 0) -->
 	<Define>
 		<DefineName>ANIMAL_UNITS_PER_TILE_LIMIT</DefineName>
 		<iDefineIntVal>3</iDefineIntVal>
+	</Define>
+	
+	<!-- "killbarbarian" tells the game whether or not to subtract a unit from the total number in the area being considered. Less than or equal to this number is considered universally 'fine', i.e. don't kill any. Default 5. -->
+	<Define>
+		<DefineName>NEVER_A_CROWD_OF_BARBS</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<!-- For water areas, the number of animals is divided by this. -->
+	<Define>
+		<DefineName>WATER_ANIMALS_DIVISOR</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	
+	<!-- Added to spawn value if native feature is on tile. Value also includes a rand(1000) and the unit's speciic spawn weight  -->
+	<Define>
+		<DefineName>ANIMAL_FEATURE_NATIVE_WEIGHT</DefineName>
+		<iDefineIntVal>500</iDefineIntVal>
 	</Define>
 
 </Civ4Defines>

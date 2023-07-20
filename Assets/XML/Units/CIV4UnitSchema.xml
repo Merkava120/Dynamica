@@ -105,6 +105,8 @@
 	<ElementType name="SeeInvisible" content="textOnly"/>
 	<ElementType name="Advisor" content="textOnly"/>
 	<ElementType name="bAnimal" content="textOnly" dt:type="boolean"/>
+	<ElementType name="iSpawnChannel" content="textOnly" dt:type="boolean"/><!-- merk.rasa-->
+	<ElementType name="iSpawnWeight" content="textOnly" dt:type="boolean"/><!-- merk.rasa-->
 	<ElementType name="bFood" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bNoBadGoodies" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bOnlyDefensive" content="textOnly" dt:type="boolean"/>
@@ -314,13 +316,13 @@
 	<ElementType name="iAdvancedStartCostIncrease" content="textOnly" dt:type="int"/>
 	<ElementType name="iMinAreaSize" content="textOnly" dt:type="int"/>
 	<ElementType name="iMoves" content="textOnly" dt:type="int"/>
-	<!-- merk.ftac / merk.lt begin -->
+	<!-- merk.lt begin -->
 	<ElementType name="iStrike" content="textOnly" dt:type="int"/>
 	<ElementType name="iReach" content="textOnly" dt:type="int"/>
 	<ElementType name="iLevel" content="textOnly" dt:type="int"/>
 	<ElementType name="iDive" content="textOnly" dt:type="int"/>
 	<ElementType name="iClimb" content="textOnly" dt:type="int"/>
-	<!-- merk.ftac end -->
+	<!-- merk.lt end -->
 	<ElementType name="bNoRevealMap" content="textOnly" dt:type="boolean"/>
 	<ElementType name="iAirRange" content="textOnly" dt:type="int"/>
 	<ElementType name="iAirUnitCap" content="textOnly" dt:type="int"/>
@@ -582,6 +584,8 @@
 		<element type="Help" minOccurs="0"/>
 		<element type="Advisor"/>
 		<element type="bAnimal"/>
+		<element type="iSpawnChannel" minOccurs="0"/><!-- merk.rasa-->
+		<element type="iSpawnWeight" minOccurs="0"/><!-- merk.rasa-->
 		<element type="bFood"/>
 		<element type="bNoBadGoodies"/>
 		<element type="bOnlyDefensive"/>
