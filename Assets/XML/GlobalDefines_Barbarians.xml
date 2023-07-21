@@ -107,5 +107,11 @@
 		<DefineName>UNIQUE_SPAWN_CHANNELS</DefineName>
 		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
+	
+	<!-- above this threshold of beakers the barb is considered to 'have expensive techs'. Default 100 -->
+	<Define>
+		<DefineName>BARB_TECH_EXPENSIVE_THRESHOLD</DefineName>
+		<iDefineIntVal>500</iDefineIntVal>
+	</Define>
 
 </Civ4Defines>

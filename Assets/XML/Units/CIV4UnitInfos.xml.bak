@@ -22,8 +22,8 @@
 			<Strategy>TXT_KEY_UNIT_ANIMAL_STRATEGY</Strategy>
 			<Advisor>NONE</Advisor>
 			<bAnimal>1</bAnimal>
-			<iSpawnChannel>1</iSpawnChannel>
-			<iSpawnWeight>100</iSpawnWeight>
+			<bRiverNative>1</bRiverNative>
+			<bCannotLeaveRivers>1</bCannotLeaveRivers>
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
 			<bOnlyDefensive>0</bOnlyDefensive>
@@ -220,8 +220,8 @@
 			<Strategy>TXT_KEY_UNIT_ANIMAL_STRATEGY</Strategy>
 			<Advisor>NONE</Advisor>
 			<bAnimal>1</bAnimal>
-			<iSpawnChannel>-1</iSpawnChannel>
-			<iSpawnWeight>-200</iSpawnWeight>
+			<bHillsNative>1</bHillsNative>
+			<bCannotMoveFlatlands>1</bCannotMoveFlatlands>
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
 			<bOnlyDefensive>0</bOnlyDefensive>
@@ -418,8 +418,8 @@
 			<Strategy>TXT_KEY_UNIT_ANIMAL_STRATEGY</Strategy>
 			<Advisor>NONE</Advisor>
 			<bAnimal>1</bAnimal>
-			<iSpawnChannel>2</iSpawnChannel>
-			<iSpawnWeight>100</iSpawnWeight>
+			<bHillsNative>1</bHillsNative>
+			<bCannotMoveRivers>1</bCannotMoveRivers>
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
 			<bOnlyDefensive>0</bOnlyDefensive>
@@ -538,7 +538,12 @@
 			<iAnimalCombat>0</iAnimalCombat>
 			<iHillsAttack>0</iHillsAttack>
 			<iHillsDefense>0</iHillsDefense>
-			<TerrainNatives/>
+			<TerrainNatives>
+				<TerrainNative>
+					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<bTerrainNative>1</bTerrainNative>
+				</TerrainNative>
+			</TerrainNatives>
 			<FeatureNatives>
 				<FeatureNative>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -602,8 +607,7 @@
 			<Strategy>TXT_KEY_UNIT_ANIMAL_STRATEGY</Strategy>
 			<Advisor>NONE</Advisor>
 			<bAnimal>1</bAnimal>
-			<iSpawnChannel>-1</iSpawnChannel>
-			<iSpawnWeight>300</iSpawnWeight>
+			<iRiverRestrictDistance>3</iRiverRestrictDistance>
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
 			<bOnlyDefensive>0</bOnlyDefensive>

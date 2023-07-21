@@ -32,6 +32,7 @@
 			<iSeeThrough>1</iSeeThrough>
 			<iBuildModifier>0</iBuildModifier>
 			<iDefense>0</iDefense>
+			<iTemp>3</iTemp>
 			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Grass.dds</Button>
 			<FootstepSounds>
 				<FootstepSound>
@@ -188,6 +189,7 @@
 			<iSeeThrough>1</iSeeThrough>
 			<iBuildModifier>0</iBuildModifier>
 			<iDefense>0</iDefense>
+			<iTemp>3</iTemp>
 			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Plains.dds</Button>
 			<FootstepSounds>
 				<FootstepSound>
@@ -340,6 +342,7 @@
 			<iSeeThrough>1</iSeeThrough>
 			<iBuildModifier>25</iBuildModifier>
 			<iDefense>0</iDefense>
+			<iTemp>4</iTemp>
 			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Desert.dds</Button>
 			<FootstepSounds>
 				<FootstepSound>
@@ -496,6 +499,7 @@
 			<iSeeThrough>1</iSeeThrough>
 			<iBuildModifier>25</iBuildModifier>
 			<iDefense>0</iDefense>
+			<iTemp>2</iTemp>
 			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Tundra.dds</Button>
 			<FootstepSounds>
 				<FootstepSound>
@@ -644,6 +648,7 @@
 			<iSeeThrough>1</iSeeThrough>
 			<iBuildModifier>50</iBuildModifier>
 			<iDefense>0</iDefense>
+			<iTemp>1</iTemp>
 			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Ice.dds</Button>
 			<FootstepSounds>
 				<FootstepSound>
@@ -1096,6 +1101,7 @@
 			<iSeeThrough>0</iSeeThrough>
 			<iBuildModifier>0</iBuildModifier>
 			<iDefense>0</iDefense>
+			<iTemp>2</iTemp>
 			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Peak.dds</Button>
 			<FootstepSounds>
 				<FootstepSound>
