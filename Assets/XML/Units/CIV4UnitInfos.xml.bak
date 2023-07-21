@@ -608,6 +608,7 @@
 			<Advisor>NONE</Advisor>
 			<bAnimal>1</bAnimal>
 			<iRiverRestrictDistance>3</iRiverRestrictDistance>
+			<bCannotMoveHills>1</bCannotMoveHills>
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
 			<bOnlyDefensive>0</bOnlyDefensive>
@@ -739,7 +740,7 @@
 			</TerrainNatives>
 			<FeatureNatives>
 				<FeatureNative>
-					<FeatureType>FEATURE_FOREST</FeatureType>
+					<FeatureType>NO_FEATURE</FeatureType>
 					<bFeatureNative>1</bFeatureNative>
 				</FeatureNative>
 			</FeatureNatives>

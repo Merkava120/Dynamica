@@ -113,5 +113,26 @@
 		<DefineName>BARB_TECH_EXPENSIVE_THRESHOLD</DefineName>
 		<iDefineIntVal>500</iDefineIntVal>
 	</Define>
+	
+	<!-- for the purposes of spawning, the middle of the world is how hot? -->
+	<Define>
+		<DefineName>EQUATOR_TEMP</DefineName>
+		<iDefineIntVal>8</iDefineIntVal>
+	</Define>
+	<!-- and the poles? -->
+	<Define>
+		<DefineName>POLE_TEMP</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<!-- latitudes (if you're on a non-global map definitely change these) -->
+	<Define>
+		<DefineName>EQUATOR_LATITUDE</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!-- and the poles? -->
+	<Define>
+		<DefineName>POLE_LATITUDE</DefineName>
+		<iDefineIntVal>90</iDefineIntVal>
+	</Define>
 
 </Civ4Defines>

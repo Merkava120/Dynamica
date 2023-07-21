@@ -108,9 +108,20 @@
 		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 	
-	<!-- use the special niche system -->
+	<!-- above this threshold of beakers the barb is considered to 'have expensive techs'. Default 100 -->
 	<Define>
-		<DefineName>NICHE_SYSTEM</DefineName>
+		<DefineName>BARB_TECH_EXPENSIVE_THRESHOLD</DefineName>
+		<iDefineIntVal>500</iDefineIntVal>
+	</Define>
+	
+	<!-- for the purposes of spawning, the middle of the world is how hot? -->
+	<Define>
+		<DefineName>EQUATOR_TEMP</DefineName>
+		<iDefineIntVal>8</iDefineIntVal>
+	</Define>
+	<!-- and the poles? -->
+	<Define>
+		<DefineName>POLE_TEMP</DefineName>
 		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 
