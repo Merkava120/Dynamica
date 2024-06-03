@@ -22,11 +22,11 @@
 	<!-- Animal spawning condition 2: ANIMAL_CITY_MULT times the number of cities in the game is less than ANIMAL_ALIVE_PLAYERS_MULT times the number of players who are alive (default 2 and 3) -->
 	<Define> 
 		<DefineName>ANIMAL_CITY_MULT</DefineName>
-		<iDefineIntVal>1</iDefineIntVal>
+		<iDefineIntVal>2</iDefineIntVal>
 	</Define>
 	<Define> 
 		<DefineName>ANIMAL_ALIVE_PLAYERS_MULT</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>3</iDefineIntVal>
 	</Define>
 	
 	<!-- multiply start turn by this, then divide by 100, if it's advanced start for barbarians and humans. Default 50 -->
@@ -71,12 +71,12 @@
 	<!-- in the code for creating animals the iNeededAnimals is divided by this before actually placing them. Can change this to fine tune total number of animals-->
 	<Define>
 		<DefineName>NEEDED_ANIMALS_DIVISOR</DefineName>
-		<iDefineIntVal>1</iDefineIntVal>
+		<iDefineIntVal>5</iDefineIntVal>
 	</Define>
 	<!-- continent must have more than this many cities for big groups of barbs to spawn. Set to -1 to not care. Default 0 -->
 	<Define>
 		<DefineName>ALLOW_BIG_GROUPS_WITH_CITIES</DefineName>
-		<iDefineIntVal>-1</iDefineIntVal>
+		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
 	
 	<!-- animal units cannot move into tiles with more than this number of units (default 0) -->
@@ -88,12 +88,12 @@
 	<!-- "killbarbarian" tells the game whether or not to subtract a unit from the total number in the area being considered. Less than or equal to this number is considered universally 'fine', i.e. don't kill any. Default 5. -->
 	<Define>
 		<DefineName>NEVER_A_CROWD_OF_BARBS</DefineName>
-		<iDefineIntVal>10</iDefineIntVal>
+		<iDefineIntVal>5</iDefineIntVal>
 	</Define>
 	<!-- For water areas, the number of animals is divided by this. -->
 	<Define>
 		<DefineName>WATER_ANIMALS_DIVISOR</DefineName>
-		<iDefineIntVal>3</iDefineIntVal>
+		<iDefineIntVal>5</iDefineIntVal>
 	</Define>
 	
 	<!-- Added to spawn value if native feature is on tile. Value also includes a rand(1000) and the unit's speciic spawn weight  -->
@@ -102,10 +102,32 @@
 		<iDefineIntVal>500</iDefineIntVal>
 	</Define>
 	
+	
 	<!-- only spawn each channel once; i.e. each area will be unique -->
 	<Define>
 		<DefineName>UNIQUE_SPAWN_CHANNELS</DefineName>
 		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<!-- randomly determine spawn channels (not niches) based on the number of areas in the game -->
+	<Define>
+		<DefineName>RANDOMIZE_SPAWN_CHANNELS</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	
+	<!-- Disable channels for animals, so your continent can have mixes of channels but will still fill each niche only once. Don't want to just recreate Earth's groups of animals? I gotchoo.  -->
+	<Define>
+		<DefineName>DISABLE_ANIMAL_CHANNELS</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!-- Same for niches. I'm never going to use this but who am I to limit you. -->
+	<Define>
+		<DefineName>DISABLE_ANIMAL_NICHES</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!-- disable the entire niche / channel system including for other barbarians. Note this does not disable terrain / feature / etc. requirements -->
+	<Define>
+		<DefineName>DISABLE_RAS_SYSTEM</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
 	
 	<!-- above this threshold of beakers the barb is considered to 'have expensive techs'. Default 100 -->
@@ -123,6 +145,16 @@
 	<Define>
 		<DefineName>POLE_TEMP</DefineName>
 		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<!-- latitudes (if you're on a non-global map definitely change these) -->
+	<Define>
+		<DefineName>EQUATOR_LATITUDE</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!-- and the poles? -->
+	<Define>
+		<DefineName>POLE_LATITUDE</DefineName>
+		<iDefineIntVal>90</iDefineIntVal>
 	</Define>
 
 </Civ4Defines>

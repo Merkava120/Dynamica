@@ -31,21 +31,6 @@
 	<ElementType name="FeatureStructs" content="eltOnly">
 		<element type="FeatureStruct" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	<!-- dynamica 0.2.4-->
-	<ElementType name="iCommerce" content="textOnly" dt:type="int"/>
-	<ElementType name="YieldCosts" content="eltOnly">
-		<element type="iYield" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="YieldGains" content="eltOnly">
-		<element type="iYield" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="CommerceCosts" content="eltOnly">
-		<element type="iCommerce" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="CommerceGains" content="eltOnly">
-		<element type="iCommerce" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<!-- dynamica 0.2.4 end -->
 	<ElementType name="HotKey" content="textOnly"/>
 	<ElementType name="bAltDown" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bShiftDown" content="textOnly" dt:type="boolean"/>
@@ -56,6 +41,7 @@
 	<ElementType name="bShiftDownAlt" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bCtrlDownAlt" content="textOnly" dt:type="boolean"/>
 	<ElementType name="iHotKeyPriorityAlt" content="textOnly" dt:type="int"/>
+	<!-- advc (note): Set to 5 by default in the DLL -->
 	<ElementType name="iOrderPriority" content="textOnly" dt:type="int"/>
 	<ElementType name="BuildInfo" content="eltOnly">
 		<element type="Type"/>
@@ -64,18 +50,9 @@
 		<element type="PrereqTech"/>
 		<element type="iTime"/>
 		<element type="iCost"/>
-		<!-- dynamica 0.2.4-->
-		<element type="YieldCosts"/>
-		<element type="YieldGains"/>
-		<element type="CommerceCosts"/>
-		<element type="CommerceGains"/>
-		<!-- end-->
 		<element type="bKill"/>
 		<element type="ImprovementType"/>
 		<element type="RouteType"/>
-		<!-- dynamica 0.2.4 -->
-		<element type="UnitType"/>
-		<!-- end-->
 		<element type="EntityEvent"/>
 		<element type="FeatureStructs"/>
 		<element type="HotKey"/>
@@ -125,13 +102,42 @@
 	<ElementType name="Domain" content="textOnly"/>
 	<ElementType name="DefaultUnitAI" content="textOnly"/>
 	<ElementType name="Invisible" content="textOnly"/>
+	<!-- merk.advinv -->
+	<ElementType name="bRevealInOpen" content="textOnly" dt:type="boolean"/>
 	<ElementType name="SeeInvisible" content="textOnly"/>
 	<ElementType name="Advisor" content="textOnly"/>
 	<ElementType name="bAnimal" content="textOnly" dt:type="boolean"/>
-	<!-- dynamica 0.2.3 -->
+	<!-- merk.rasa merk.rasboth merk.rasniche -->
+	<ElementType name="iNiche" content="textOnly" dt:type="int"/>
 	<ElementType name="iSpawnChannel" content="textOnly" dt:type="int"/>
 	<ElementType name="iSpawnWeight" content="textOnly" dt:type="int"/>
-	<!-- dynamica end-->
+	<!-- merk.raspack -->
+	<ElementType name="iPackSize" content="textOnly" dt:type="int"/>
+	<!-- merk.rasmore merk.rasem-->
+	<ElementType name="bRiverNative" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bHillsNative" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bFlatlandsNative" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bCoastalNative" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bOpenNative" content="textOnly" dt:type="boolean"/>
+	<ElementType name="iFeatureNativeWeight" content="textOnly" dt:type="int"/>
+	<ElementType name="bCannotMoveRivers" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bCannotLeaveRivers" content="textOnly" dt:type="boolean"/>
+	<ElementType name="iRiverRestrictDistance" content="textOnly" dt:type="int"/>
+	<ElementType name="bCannotMoveHills" content="textOnly" dt:type="boolean"/>
+	<ElementType name="iHillsRestrictDistance" content="textOnly" dt:type="int"/>
+	<ElementType name="iPeakRestrictDistance" content="textOnly" dt:type="int"/>
+	<ElementType name="bCannotMoveFlatlands" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bCannotMoveCoastal" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bCannotLeaveCoastal" content="textOnly" dt:type="boolean"/>
+	<ElementType name="iCoastalRestrictDistance" content="textOnly" dt:type="int"/>
+	<ElementType name="bCanSwim" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bCannotMoveFeatures" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bCannotMoveOpen" content="textOnly" dt:type="boolean"/>
+	<ElementType name="iMinSpawnTemp" content="textOnly" dt:type="int"/>
+	<ElementType name="iMaxSpawnTemp" content="textOnly" dt:type="int"/>
+	<ElementType name="iMinMoveTemp" content="textOnly" dt:type="int"/>
+	<ElementType name="iMaxMoveTemp" content="textOnly" dt:type="int"/>
+	<!-- merkava120 end -->
 	<ElementType name="bFood" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bNoBadGoodies" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bOnlyDefensive" content="textOnly" dt:type="boolean"/>
@@ -140,6 +146,8 @@
 	<!-- advc.315b -->
 	<ElementType name="bOnlyAttackBarbarians" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bNoCapture" content="textOnly" dt:type="boolean"/>
+	<!-- merk.ns -->
+	<ElementType name="iDuplicateAttackerChance" content="textOnly" dt:type="int"/>
 	<ElementType name="bQuickCombat" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bRivalTerritory" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bMilitaryHappiness" content="textOnly" dt:type="boolean"/>
@@ -247,38 +255,6 @@
 	<ElementType name="Builds" content="eltOnly">
 		<element type="Build" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	<!-- dynamica 0.2.4 yields, commerces, events from combat-->
-	<ElementType name="CombatYields" content="eltOnly">
-		<element type="iYield" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="CombatThemYields" content="eltOnly">
-		<element type="iYield" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="DeathYields" content="eltOnly">
-		<element type="iYield" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="KillYields" content="eltOnly">
-		<element type="iYield" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="YieldStorages" content="eltOnly">
-		<element type="iYield" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="CombatCommerces" content="eltOnly">
-		<element type="iCommerce" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="CombatThemCommerces" content="eltOnly">
-		<element type="iCommerce" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="DeathCommerces" content="eltOnly">
-		<element type="iCommerce" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="KillCommerces" content="eltOnly">
-		<element type="iCommerce" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="CommerceStorages" content="eltOnly">
-		<element type="iCommerce" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<!-- dynamica 0.2.4 end-->
 	<ElementType name="ReligionType" content="textOnly"/>
 	<ElementType name="iReligionSpread" content="textOnly" dt:type="int"/>
 	<ElementType name="ReligionSpread" content="eltOnly">
@@ -371,6 +347,13 @@
 	<ElementType name="iAdvancedStartCostIncrease" content="textOnly" dt:type="int"/>
 	<ElementType name="iMinAreaSize" content="textOnly" dt:type="int"/>
 	<ElementType name="iMoves" content="textOnly" dt:type="int"/>
+	<!-- merk.lt begin -->
+	<ElementType name="iStrike" content="textOnly" dt:type="int"/>
+	<ElementType name="iReach" content="textOnly" dt:type="int"/>
+	<ElementType name="iLevel" content="textOnly" dt:type="int"/>
+	<ElementType name="iDive" content="textOnly" dt:type="int"/>
+	<ElementType name="iClimb" content="textOnly" dt:type="int"/>
+	<!-- merk.lt end -->
 	<ElementType name="bNoRevealMap" content="textOnly" dt:type="boolean"/>
 	<ElementType name="iAirRange" content="textOnly" dt:type="int"/>
 	<ElementType name="iAirUnitCap" content="textOnly" dt:type="int"/>
@@ -420,6 +403,30 @@
 	<ElementType name="iCombatLimit" content="textOnly" dt:type="int"/>
 	<ElementType name="iAirCombat" content="textOnly" dt:type="int"/>
 	<ElementType name="iAirCombatLimit" content="textOnly" dt:type="int"/>
+	<!-- merk.rcb start -->
+	<ElementType name="iRangeDefense" content="textOnly" dt:type="int"/>
+	<ElementType name="iRangeDamage" content="textOnly" dt:type="int"/>
+	<ElementType name="iRangeDamageBlock" content="textOnly" dt:type="int"/>
+	<ElementType name="iRangeBlockScalingType" content="textOnly" dt:type="int"/>
+	<ElementType name="bIndirectAttack" content="textOnly" dt:type="boolean"/>
+	<ElementType name="iRangeAttackMoves" content="textOnly" dt:type="int"/>
+	<ElementType name="iRangeAttacks" content="textOnly" dt:type="int"/>
+	<ElementType name="bRangeMustMotionless" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bRangeMustFortify" content="textOnly" dt:type="boolean"/>
+	<!-- merk.rcm start -->
+	<ElementType name="iHillsRangeDefense" content="textOnly" dt:type="int"/>
+	<ElementType name="iHillsRangeBlock" content="textOnly" dt:type="int"/>
+	<ElementType name="iCityRangeDefense" content="textOnly" dt:type="int"/>
+	<ElementType name="iCityRangeBlock" content="textOnly" dt:type="int"/>
+	<ElementType name="iFeatureRangeDefense" content="textOnly" dt:type="int"/>
+	<ElementType name="iFeatureRangeBlock" content="textOnly" dt:type="int"/>
+	<ElementType name="iMotionlessRangeDefense" content="textOnly" dt:type="int"/>
+	<ElementType name="iMotionlessRangeBlock" content="textOnly" dt:type="int"/>
+	<ElementType name="iFortifyRangeDefense" content="textOnly" dt:type="int"/>
+	<ElementType name="iFortifyRangeBlock" content="textOnly" dt:type="int"/>
+	<ElementType name="iDamagedRangeDefense" content="textOnly" dt:type="int"/>
+	<ElementType name="iDamagedRangeBlock" content="textOnly" dt:type="int"/>
+	<!-- merk end -->
 	<ElementType name="iXPValueAttack" content="textOnly" dt:type="int"/>
 	<ElementType name="iXPValueDefense" content="textOnly" dt:type="int"/>
 	<ElementType name="iFirstStrikes" content="textOnly" dt:type="int"/>
@@ -430,6 +437,10 @@
 	<ElementType name="iCollateralDamage" content="textOnly" dt:type="int"/>
 	<ElementType name="iCollateralDamageLimit" content="textOnly" dt:type="int"/>
 	<ElementType name="iCollateralDamageMaxUnits" content="textOnly" dt:type="int"/>
+	<!-- merk.rcb start -->
+	<ElementType name="iFlatCollateralDamage" content="textOnly" dt:type="int"/>
+	<ElementType name="iCollateralDamageBlock" content="textOnly" dt:type="int"/>
+	<!-- merk.rcb end -->
 	<ElementType name="iCityAttack" content="textOnly" dt:type="int"/>
 	<ElementType name="iCityDefense" content="textOnly" dt:type="int"/>
 	<ElementType name="iAnimalCombat" content="textOnly" dt:type="int"/>
@@ -597,6 +608,8 @@
 		<element type="Domain"/>
 		<element type="DefaultUnitAI"/>
 		<element type="Invisible"/>
+		<!-- merk.advinv -->
+		<element type="bRevealInOpen" minOccurs="0"/>
 		<element type="SeeInvisible"/>
 		<element type="Description"/>
 		<element type="Civilopedia"/>
@@ -604,10 +617,37 @@
 		<element type="Help" minOccurs="0"/>
 		<element type="Advisor"/>
 		<element type="bAnimal"/>
-		<!-- dynamica 0.2.3-->
+		<!-- merk.rasboth merk.rasniche merk.rasa -->
+		<element type="iNiche" minOccurs="0"/>
 		<element type="iSpawnChannel" minOccurs="0"/>
 		<element type="iSpawnWeight" minOccurs="0"/>
-		<!-- dynamica 0.2.3 end-->
+		<!-- merk.raspack -->
+		<element type="iPackSize" minOccurs="0"/>
+		<!-- merk.rasmore merk.rasem -->
+		<element type="bRiverNative" minOccurs="0"/>
+		<element type="bHillsNative" minOccurs="0"/>
+		<element type="bFlatlandsNative" minOccurs="0"/>
+		<element type="bCoastalNative" minOccurs="0"/>
+		<element type="bOpenNative" minOccurs="0"/>
+		<element type="iFeatureNativeWeight" minOccurs="0"/>
+		<element type="bCannotMoveRivers" minOccurs="0"/>
+		<element type="bCannotLeaveRivers" minOccurs="0"/>
+		<element type="iRiverRestrictDistance" minOccurs="0"/>
+		<element type="bCannotMoveHills" minOccurs="0"/>
+		<element type="iHillsRestrictDistance" minOccurs="0"/>
+		<element type="iPeakRestrictDistance" minOccurs="0"/>
+		<element type="bCannotMoveFlatlands" minOccurs="0"/>
+		<element type="bCannotMoveCoastal" minOccurs="0"/>
+		<element type="bCannotLeaveCoastal" minOccurs="0"/>
+		<element type="iCoastalRestrictDistance" minOccurs="0"/>
+		<element type="bCanSwim" minOccurs="0"/>
+		<element type="bCannotMoveFeatures" minOccurs="0"/>
+		<element type="bCannotMoveOpen" minOccurs="0"/>
+		<element type="iMinSpawnTemp" minOccurs="0"/>
+		<element type="iMaxSpawnTemp" minOccurs="0"/>
+		<element type="iMinMoveTemp" minOccurs="0"/>
+		<element type="iMaxMoveTemp" minOccurs="0"/>
+		<!-- merkava120 end -->
 		<element type="bFood"/>
 		<element type="bNoBadGoodies"/>
 		<element type="bOnlyDefensive"/>
@@ -616,6 +656,8 @@
 		<!-- advc.315b (set to false by default in the DLL) -->
 		<element type="bOnlyAttackBarbarians" minOccurs="0"/>
 		<element type="bNoCapture"/>
+		<!-- merk.ns -->
+		<element type="iDuplicateAttackerChance" minOccurs="0"/>
 		<element type="bQuickCombat"/>
 		<element type="bRivalTerritory"/>
 		<element type="bMilitaryHappiness"/>
@@ -657,18 +699,6 @@
 		<element type="UnitAIs"/>
 		<element type="NotUnitAIs"/>
 		<element type="Builds"/>
-		<!-- Dynamica 0.2.4 yields, commerces, and events from combat -->
-		<element type="CombatYields"/>
-		<element type="CombatThemYields"/>
-		<element type="DeathYields"/>
-		<element type="KillYields"/>
-		<element type="YieldStorages"/>
-		<element type="CombatCommerces"/>
-		<element type="CombatThemCommerces"/>
-		<element type="DeathCommerces"/>
-		<element type="KillCommerces"/>
-		<element type="CommerceStorages"/>
-		<!-- end -->
 		<element type="ReligionSpreads"/>
 		<element type="CorporationSpreads"/>
 		<element type="GreatPeoples"/>
@@ -696,6 +726,13 @@
 		<element type="iAdvancedStartCostIncrease"/>
 		<element type="iMinAreaSize"/>
 		<element type="iMoves"/>
+		<!-- merk.lt -->
+		<element type="iStrike" minOccurs="0"/>
+		<element type="iReach" minOccurs="0"/>
+		<element type="iLevel" minOccurs="0"/>
+		<element type="iDive" minOccurs="0"/>
+		<element type="iClimb" minOccurs="0"/>
+		<!-- merk.lt -->
 		<element type="bNoRevealMap"/>
 		<element type="iAirRange"/>
 		<element type="iAirUnitCap"/>
@@ -718,6 +755,30 @@
 		<element type="iCombatLimit"/>
 		<element type="iAirCombat"/>
 		<element type="iAirCombatLimit"/>
+		<!-- merk.rcb begin -->
+		<element type="iRangeDefense" minOccurs="0"/>
+		<element type="iRangeDamage" minOccurs="0"/>
+		<element type="iRangeDamageBlock" minOccurs="0"/>
+		<element type="iRangeBlockScalingType" minOccurs="0"/>
+		<element type="bIndirectAttack" minOccurs="0"/>
+		<element type="iRangeAttackMoves" minOccurs="0"/>
+		<element type="iRangeAttacks" minOccurs="0"/>
+		<element type="bRangeMustMotionless" minOccurs="0"/>
+		<element type="bRangeMustFortify" minOccurs="0"/>
+		<!-- merk.rcm begin -->
+		<element type="iHillsRangeDefense" minOccurs="0"/>
+		<element type="iHillsRangeBlock" minOccurs="0"/>
+		<element type="iCityRangeDefense" minOccurs="0"/>
+		<element type="iCityRangeBlock" minOccurs="0"/>
+		<element type="iFeatureRangeDefense" minOccurs="0"/>
+		<element type="iFeatureRangeBlock" minOccurs="0"/>
+		<element type="iMotionlessRangeDefense" minOccurs="0"/>
+		<element type="iMotionlessRangeBlock" minOccurs="0"/>
+		<element type="iFortifyRangeDefense" minOccurs="0"/>
+		<element type="iFortifyRangeBlock" minOccurs="0"/>
+		<element type="iDamagedRangeDefense" minOccurs="0"/>
+		<element type="iDamagedRangeBlock" minOccurs="0"/>
+		<!-- merkava120.rcb end -->
 		<element type="iXPValueAttack"/>
 		<element type="iXPValueDefense"/>
 		<element type="iFirstStrikes"/>
@@ -728,6 +789,10 @@
 		<element type="iCollateralDamage"/>
 		<element type="iCollateralDamageLimit"/>
 		<element type="iCollateralDamageMaxUnits"/>
+		<!-- merk.rcb begin -->
+		<element type="iFlatCollateralDamage" minOccurs="0"/>
+		<element type="iCollateralDamageBlock" minOccurs="0"/>
+		<!-- merk.rcb end -->
 		<element type="iCityAttack"/>
 		<element type="iCityDefense"/>
 		<element type="iAnimalCombat"/>
@@ -887,6 +952,20 @@
 	<ElementType name="bLeader" content="textOnly" dt:type="boolean"/>
 	<!-- advc.164: was boolean -->
 	<ElementType name="iBlitz" content="textOnly" dt:type="int"/>
+	<!-- merk.promo1 -->
+	<ElementType name="bDoubleMoveOpen" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bDoubleMoveFlatlands" content="textOnly" dt:type="boolean"/>
+	<ElementType name="iOpenAttack" content="textOnly" dt:type="int"/>
+	<ElementType name="iOpenDefense" content="textOnly" dt:type="int"/>
+	<ElementType name="iFlatlandsAttack" content="textOnly" dt:type="int"/>
+	<ElementType name="iFlatlandsDefense" content="textOnly" dt:type="int"/>
+	<ElementType name="bUnitCombatAttack" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bUnitCombatDefense" content="textOnly" dt:type="boolean"/>
+	<!-- merk.dp -->
+	<ElementType name="iChanceGain" content="textOnly" dt:type="int"/>
+	<ElementType name="bGainMatchConditions" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bNoDirect" content="textOnly" dt:type="boolean"/>
+	<!-- merkava120 end -->
 	<ElementType name="bAmphib" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bRiver" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bEnemyRoute" content="textOnly" dt:type="boolean"/>
@@ -911,38 +990,6 @@
 	<ElementType name="iSameTileHealChange" content="textOnly" dt:type="int"/>
 	<ElementType name="iAdjacentTileHealChange" content="textOnly" dt:type="int"/>
 	<ElementType name="iCombatPercent" content="textOnly" dt:type="int"/>
-	<!-- dynamica 0.2.4-->
-	<ElementType name="CombatYieldChanges" content="eltOnly">
-		<element type="iYield" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="CombatThemYieldChanges" content="eltOnly">
-		<element type="iYield" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="DeathYieldChanges" content="eltOnly">
-		<element type="iYield" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="KillYieldChanges" content="eltOnly">
-		<element type="iYield" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="YieldStorageChanges" content="eltOnly">
-		<element type="iYield" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="CombatCommerceChanges" content="eltOnly">
-		<element type="iCommerce" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="CombatThemCommerceChanges" content="eltOnly">
-		<element type="iCommerce" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="DeathCommerceChanges" content="eltOnly">
-		<element type="iCommerce" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="KillCommerceChanges" content="eltOnly">
-		<element type="iCommerce" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="CommerceStorageChanges" content="eltOnly">
-		<element type="iCommerce" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<!-- dynamica 0.2.4 end-->
 	<ElementType name="bUnitCombat" content="textOnly" dt:type="boolean"/>
 	<ElementType name="UnitCombat" content="eltOnly">
 		<element type="UnitCombatType"/>
@@ -983,6 +1030,23 @@
 		<element type="bLeader"/>
 		<!-- advc.164 -->
 		<element type="iBlitz"/>
+		<!-- merk.promo1 -->
+		<element type="SeeInvisible" minOccurs="0"/>
+		<element type="Invisible" minOccurs="0"/>
+		<element type="bDoubleMoveOpen" minOccurs="0"/>
+		<element type="bDoubleMoveFlatlands" minOccurs="0"/>
+		<element type="iOpenAttack" minOccurs="0"/>
+		<element type="iOpenDefense" minOccurs="0"/>
+		<element type="iFlatlandsAttack" minOccurs="0"/>
+		<element type="iFlatlandsDefense" minOccurs="0"/>
+		<element type="bUnitCombatAttack" minOccurs="0"/>
+		<element type="bUnitCombatDefense" minOccurs="0"/>
+		<element type="bCanMoveImpassable" minOccurs="0"/>
+		<!-- merk.dp -->
+		<element type="iChanceGain" minOccurs="0"/>
+		<element type="bGainMatchConditions" minOccurs="0"/>
+		<element type="bNoDirect" minOccurs="0"/>
+		<!-- merkava120 end -->
 		<element type="bAmphib"/>
 		<element type="bRiver"/>
 		<element type="bEnemyRoute"/>
@@ -1026,18 +1090,6 @@
 		<element type="DomainMods"/>
 		<element type="TerrainDoubleMoves"/>
 		<element type="FeatureDoubleMoves"/>
-		<!-- dynamica 0.2.4-->
-		<element type="CombatYieldChanges"/>
-		<element type="CombatThemYieldChanges"/>
-		<element type="DeathYieldChanges"/>
-		<element type="KillYieldChanges"/>
-		<element type="YieldStorageChanges"/>
-		<element type="CombatCommerceChanges"/>
-		<element type="CombatThemCommerceChanges"/>
-		<element type="DeathCommerceChanges"/>
-		<element type="KillCommerceChanges"/>
-		<element type="CommerceStorageChanges"/>
-		<!-- dynamica 0.2.4 end-->
 		<element type="UnitCombats"/>
 		<element type="HotKey"/>
 		<element type="bAltDown"/>

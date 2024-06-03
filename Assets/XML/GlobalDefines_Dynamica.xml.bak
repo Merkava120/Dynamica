@@ -4,11 +4,16 @@
 
 <Civ4Defines xmlns="x-schema:CIV4GlobalDefinesSchema.xml">
 
+	<!-- DYNAMICA GENERAL SETTINGS -->
 	<!-- Set to 1 to have beakers accumulate naturally with the dynamic system; set to 0 to disable this feature -->
 	<Define> 
 		<DefineName>DYNAMIC_TECHS</DefineName>
 		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
+	
+	
+	
+	<!-- DYNAMICA FINE TUNING -->
 	
 	<!-- beakers accumulated from combat. Base, plus/minus RAND -->
 	<Define>
@@ -41,4 +46,176 @@
 	</Define>
 	
 	
+	<!-- set to 1 to disable the dynamic promotion system -->
+	<Define>
+		<DefineName>DISABLE_DYNAMIC_PROMOTIONS</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!-- can units acquire more than one promotion at a time? -->
+	<Define>
+		<DefineName>ENABLE_MULTIPLE_PROMOTION_PER_COMBAT</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	
+	<!-- set to 0 for units to be invisible if ANY of their invisible types can NOT be seen (favor invisibility). set to 1 for units to be invisible only if ALL of their invisible types can NOT be seen (favor see invisible) 
+	Side effect: if this is not 0 or 1 it will disable all invisibles / see invisibles. -->
+	<Define>
+		<DefineName>MULTIPLE_INVISIBLES_RULE</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	
+	
+	<!-- MAPPER SETTINGS -->
+	<Define>
+		<DefineName>ENABLE_MAPPING_SYSTEM</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<!-- Use this to set the mapping method. Each digit refers to a single loop through all the tiles. 
+	1 = apply terrains,
+	2 = apply features, 
+	3 = apply improvements,
+	4 = apply terrains and features, 
+	5 = apply terrains and improvements, 
+	6 = apply features and improvements, 
+	7 = apply all three. 
+	Applied in REVERSE ORDER. 
+	-->
+	<Define>
+		<DefineName>MAPPER_LOOPS</DefineName>
+		<iDefineIntVal>312</iDefineIntVal>
+	</Define>
+	<!-- Chance per 100 that a tile otherwise matching an area will set the area to its channel. This makes it so areas tend toward channels they match the most. Channels will not be reused. -->
+	<Define>
+		<DefineName>MAPPING_SET_CHANNEL_CHANCE</DefineName>
+		<iDefineIntVal>30</iDefineIntVal>
+	</Define>
+	<!-- range to place 'groups' in, default 3 -->
+	<Define>
+		<DefineName>MAPPING_PLACEGROUP_SIZE</DefineName>
+		<iDefineIntVal>3</iDefineIntVal>
+	</Define>
+	<!-- ignore conditions when placing groups and use weight instead -->
+	<Define>
+		<DefineName>PLACEGROUP_WEIGHTED</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!-- use both weights and conditions just like placing regular tiles -->
+	<Define>
+		<DefineName>PLACEGROUP_REGULAR</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	
+	<!-- DEFINES CHANGED FROM VANILLA -->
+	<Define>
+		<DefineName>MAX_CIVIC_OPTIONS</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MAX_NATIONAL_WONDERS_PER_CITY</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>CONSCRIPT_MIN_CITY_POPULATION</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MAX_DISTANCE_CITY_MAINTENANCE</DefineName>
+		<iDefineIntVal>25</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>COMBAT_DAMAGE</DefineName>
+		<iDefineIntVal>20</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>AIR_COMBAT_DAMAGE</DefineName>
+		<iDefineIntVal>30</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INTERCEPTION_MAX_ROUNDS</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MAX_INTERCEPTION_DAMAGE</DefineName>
+		<iDefineIntVal>50</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MIN_INTERCEPTION_DAMAGE</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>COLLATERAL_COMBAT_DAMAGE</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>HILLS_EXTRA_DEFENSE</DefineName>
+		<iDefineIntVal>25</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>RIVER_ATTACK_MODIFIER</DefineName>
+		<iDefineIntVal>-25</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>AMPHIB_ATTACK_MODIFIER</DefineName>
+		<iDefineIntVal>-50</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>ENEMY_HEAL_RATE</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>NEUTRAL_HEAL_RATE</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>FRIENDLY_HEAL_RATE</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>CITY_HEAL_RATE</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_BASE_FREE_UNITS</DefineName>
+		<iDefineIntVal>4</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_BASE_FREE_MILITARY_UNITS</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_FREE_UNITS_POPULATION_PERCENT</DefineName>
+		<iDefineIntVal>24</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_FREE_MILITARY_UNITS_POPULATION_PERCENT</DefineName>
+		<iDefineIntVal>12</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_GOLD_PER_UNIT</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_FREE_OUTSIDE_UNITS</DefineName>
+		<iDefineIntVal>4</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>INITIAL_OUTSIDE_UNIT_GOLD_PERCENT</DefineName>
+		<iDefineIntVal>50</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>ANIMAL_MAX_XP_VALUE</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>BARBARIAN_MAX_XP_VALUE</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MAX_EXPERIENCE_AFTER_UPGRADE</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MAX_WITHDRAWAL_PROBABILITY</DefineName>
+		<iDefineIntVal>90</iDefineIntVal>
+	</Define>
 </Civ4Defines>

@@ -17,6 +17,11 @@
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
+			<AlertPromotion>PROMOTION_COMMANDO</AlertPromotion>
+			<iAlertType>4</iAlertType>
+			<iAlertChance>100</iAlertChance>
+			<iAlertTurns>5</iAlertTurns>
+			<bAlertCanAttack>1</bAlertCanAttack>
 			<Description>TXT_KEY_UNIT_LION</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_ANIMALS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_ANIMAL_STRATEGY</Strategy>
@@ -26,7 +31,7 @@
 			<bCannotLeaveRivers>1</bCannotLeaveRivers>
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
-			<bOnlyDefensive>0</bOnlyDefensive>
+			<bOnlyDefensive>1</bOnlyDefensive>
 			<bNoCapture>0</bNoCapture>
 			<iDuplicateAttackerChance>25</iDuplicateAttackerChance>
 			<bQuickCombat>0</bQuickCombat>
@@ -220,8 +225,11 @@
 			<Strategy>TXT_KEY_UNIT_ANIMAL_STRATEGY</Strategy>
 			<Advisor>NONE</Advisor>
 			<bAnimal>1</bAnimal>
+			<iPackSize>2</iPackSize>
+			<SpawnWithUnit>UNITCLASS_LION</SpawnWithUnit>
+			<SpawnWithUnit2>UNITCLASS_INFANTRY</SpawnWithUnit2>
+			<SpawnWithUnit3>UNITCLASS_WORKER</SpawnWithUnit3>
 			<bHillsNative>1</bHillsNative>
-			<bCannotMoveFlatlands>1</bCannotMoveFlatlands>
 			<bFood>0</bFood>
 			<bNoBadGoodies>0</bNoBadGoodies>
 			<bOnlyDefensive>0</bOnlyDefensive>
