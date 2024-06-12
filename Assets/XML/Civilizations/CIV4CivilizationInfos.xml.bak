@@ -96,12 +96,7 @@
 					<UnitType>UNIT_B17</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -210,12 +205,7 @@
 					<UnitType>UNIT_ARABIA_CAMELARCHER</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -329,12 +319,7 @@
 					<UnitType>UNIT_ASSYRIA_RAM</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -440,12 +425,7 @@
 					<UnitType>UNIT_DIGGER</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -542,12 +522,7 @@
 					<UnitType>UNIT_AUSTRIA_KUKINFANTRIE</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -648,12 +623,7 @@
 					<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -758,12 +728,7 @@
 					<UnitType>UNIT_BABYLON_BOWMAN</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -861,12 +826,7 @@
 					<UnitType>UNIT_YURUYANI</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -975,12 +935,7 @@
 					<UnitType>UNIT_DROMON</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -1086,12 +1041,7 @@
 					<UnitType>UNIT_CARTHAGE_NUMIDIAN_CAVALRY</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -1201,12 +1151,7 @@
 					<UnitType>UNIT_HIGHLANDER</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -1319,12 +1264,7 @@
 					<UnitType>UNIT_PLA</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -1420,12 +1360,7 @@
 					<UnitType>UNIT_DOROBANT</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -1546,12 +1481,7 @@
 					<UnitType>UNIT_EGYPT_WARCHARIOT</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -1658,12 +1588,7 @@
 					<UnitType>UNIT_MAN_O_WAR</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -1774,12 +1699,7 @@
 					<UnitType>UNIT_ETHIOPIAN_OROMO_WARRIOR</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -1884,12 +1804,7 @@
 					<UnitType>UNIT_FRENCH_MUSKETEER</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -1974,12 +1889,7 @@
 					<UnitType>UNIT_MONASPA</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -2097,12 +2007,7 @@
 					<UnitType>UNIT_GERMAN_PANZER</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -2202,12 +2107,7 @@
 					<UnitType>UNIT_NOMAD</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -2317,12 +2217,7 @@
 					<UnitType>UNIT_COMPANION</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -2471,12 +2366,7 @@
 					<UnitType>UNIT_HEAVY_CHARIOT</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -2587,12 +2477,7 @@
 					<UnitType>UNIT_HOLY_ROMAN_LANDSKNECHT</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -2699,12 +2584,7 @@
 					<UnitType>UNIT_MAGYAR_HUSSAR</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -2802,12 +2682,7 @@
 					<UnitType>UNIT_INCAN_SLINGER</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -2969,12 +2844,7 @@
 					<UnitType>UNIT_INDIAN_FAST_WORKER</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -3075,12 +2945,7 @@
 					<UnitType>UNIT_INDONESIAN_SILAT</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -3194,12 +3059,7 @@
 					<UnitType>UNIT_GALLEAS</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -3299,12 +3159,7 @@
 					<UnitType>UNIT_ZERO</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -3396,12 +3251,7 @@
 					<UnitType>UNIT_EIGHT_BANNERS</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -3508,12 +3358,7 @@
 					<UnitType>UNIT_KHMER_BALLISTA_ELEPHANT</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -3619,12 +3464,7 @@
 					<UnitType>UNIT_KONGO_POMBOS</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -3722,12 +3562,7 @@
 					<UnitType>UNIT_KOREAN_HWACHA</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -3830,12 +3665,7 @@
 					<UnitType>UNIT_SOFA</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -3944,12 +3774,7 @@
 					<UnitType>UNIT_MAYA_HOLKAN</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -4047,12 +3872,7 @@
 					<UnitType>UNIT_MONGOLIAN_RAIDER</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -4136,12 +3956,7 @@
 					<UnitType>UNIT_BERBER_CAVALRY</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -4256,12 +4071,7 @@
 					<UnitType>UNIT_COMANCHE_RIDER</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -4371,12 +4181,7 @@
 					<UnitType>UNIT_DE_ZEVEN</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -4477,12 +4282,7 @@
 					<UnitType>UNIT_GREAT_BOMBARD</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -4616,12 +4416,7 @@
 					<UnitType>UNIT_PERSIA_IMMORTAL</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -4760,12 +4555,7 @@
 					<UnitType>UNIT_WINGED_HUSSAR</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -4886,12 +4676,7 @@
 					<UnitType>UNIT_MAORI_WARRIOR</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -5001,12 +4786,7 @@
 					<UnitType>UNIT_CASSADOR</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -5126,12 +4906,7 @@
 					<UnitType>UNIT_BALLISTA</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -5238,12 +5013,7 @@
 					<UnitType>UNIT_RUSSIA_COSSACK</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -5354,12 +5124,7 @@
 					<UnitType>UNIT_BASTNIK</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -5465,12 +5230,7 @@
 					<UnitType>UNIT_SPANISH_CONQUISTADOR</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -5576,12 +5336,7 @@
 					<UnitType>UNIT_WAR_CART</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -5676,12 +5431,7 @@
 					<UnitType>UNIT_TIBETAN_KNIGHT</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -5765,12 +5515,7 @@
 					<UnitType>UNIT_VOI_CHIEN</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -5874,12 +5619,7 @@
 					<UnitType>UNIT_VIKING_BESERKER</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -5980,12 +5720,7 @@
 					<UnitType>UNIT_ZULU_IMPI</UnitType>
 				</Unit>
 			</Units>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
@@ -6099,12 +5834,7 @@
 			</Cities>
 			<Buildings/>
 			<Units/>
-			<FreeUnitClasses>
-				<FreeUnitClass>
-					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
-					<iFreeUnits>1</iFreeUnits>
-				</FreeUnitClass>
-			</FreeUnitClasses>
+			<FreeUnitClasses/>
 			<FreeBuildingClasses>
 				<FreeBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>

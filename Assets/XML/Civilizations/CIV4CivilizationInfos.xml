@@ -103,16 +103,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -212,16 +203,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MYSTICISM</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -326,16 +308,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -432,16 +405,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -529,16 +493,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -630,16 +585,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MYSTICISM</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -735,16 +681,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -833,16 +770,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -942,16 +870,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MYSTICISM</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -1048,16 +967,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -1158,16 +1068,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MYSTICISM</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -1271,16 +1172,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -1367,16 +1259,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -1488,16 +1371,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MYSTICISM</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -1595,16 +1469,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -1706,16 +1571,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -1811,16 +1667,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -1896,16 +1743,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -2014,16 +1852,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -2114,16 +1943,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -2224,16 +2044,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -2373,16 +2184,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -2484,16 +2286,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MYSTICISM</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -2591,16 +2384,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -2689,16 +2473,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -2851,16 +2626,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MYSTICISM</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -2952,16 +2718,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -3066,16 +2823,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -3166,16 +2914,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -3258,16 +2997,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -3365,16 +3095,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -3471,16 +3192,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -3569,16 +3281,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -3672,16 +3375,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -3781,16 +3475,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MYSTICISM</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -3879,16 +3564,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -3963,16 +3639,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -4078,16 +3745,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -4188,16 +3846,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -4289,16 +3938,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -4423,16 +4063,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -4562,16 +4193,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -4683,16 +4305,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -4793,16 +4406,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -4913,16 +4517,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -5020,16 +4615,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -5131,16 +4717,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -5237,16 +4814,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -5343,16 +4911,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -5438,16 +4997,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MYSTICISM</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -5522,16 +5072,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -5626,16 +5167,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -5727,16 +5259,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -5841,36 +5364,7 @@
 					<bFreeBuildingClass>1</bFreeBuildingClass>
 				</FreeBuildingClass>
 			</FreeBuildingClasses>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_MINING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_MYSTICISM</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_FISHING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_THE_WHEEL</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_AGRICULTURE</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_HUNTING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>
@@ -6613,12 +6107,7 @@
 			</Units>
 			<FreeUnitClasses/>
 			<FreeBuildingClasses/>
-			<FreeTechs>
-				<FreeTech>
-					<TechType>TECH_TRAPPING</TechType>
-					<bFreeTech>1</bFreeTech>
-				</FreeTech>
-			</FreeTechs>
+			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
 				<CivicType>CIVIC_DESPOTISM</CivicType>

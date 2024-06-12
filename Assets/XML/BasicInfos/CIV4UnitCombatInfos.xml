@@ -158,6 +158,11 @@
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
+			<Type>UNITCOMBAT_CROCODILE</Type>
+			<Description>Crocodiles</Description>
+			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
+		</UnitCombatInfo>
+		<UnitCombatInfo>
 			<Type>UNITCOMBAT_FIERCE_MAMMAL</Type>
 			<Description>Fierce Mammals</Description>
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
