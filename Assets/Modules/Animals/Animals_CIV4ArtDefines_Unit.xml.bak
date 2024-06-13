@@ -1694,6 +1694,9 @@
 			<fBattleDistance>0.35</fBattleDistance>
 			<fRangedDeathTime>0.31</fRangedDeathTime>
 			<TrainSound>AS2D_UNIT_BUILD_UNIQUE_UNIT</TrainSound>
+			<bActAsRanged>0</bActAsRanged>
+			<bActAsLand>1</bActAsLand>
+			<bActAsAir>0</bActAsAir>
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_ORCA</Type>
@@ -2963,11 +2966,11 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_ELASMOTHERIUM</Type>
 			<Button>Art/Interface/Buttons/Units/Elasmotherium.dds</Button>
-			<fScale>30.0</fScale>
+			<fScale>50.0</fScale>
 			<fInterfaceScale>1</fInterfaceScale>
-			<NIF>Art/Units/Elasmotherium/Elasmotherium.nif</NIF>
+			<NIF>Art/Units/Animals/rhino/rhino.nif</NIF>
 			<KFM>Art/Units/Panther/Panther.kfm</KFM>
-			<SHADERNIF>Art/Units/Elasmotherium/Elasmotherium.nif</SHADERNIF>
+			<SHADERNIF>Art/Units/Animals/rhino/rhino.nif</SHADERNIF>
 			<fBattleDistance>1.1</fBattleDistance>
 			<fRangedDeathTime>0.35</fRangedDeathTime>
 			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>

@@ -2966,11 +2966,11 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_ELASMOTHERIUM</Type>
 			<Button>Art/Interface/Buttons/Units/Elasmotherium.dds</Button>
-			<fScale>30.0</fScale>
+			<fScale>50.0</fScale>
 			<fInterfaceScale>1</fInterfaceScale>
-			<NIF>Art/Units/Elasmotherium/Elasmotherium.nif</NIF>
+			<NIF>Art/Units/Animals/rhino/rhino.nif</NIF>
 			<KFM>Art/Units/Panther/Panther.kfm</KFM>
-			<SHADERNIF>Art/Units/Elasmotherium/Elasmotherium.nif</SHADERNIF>
+			<SHADERNIF>Art/Units/Animals/rhino/rhino.nif</SHADERNIF>
 			<fBattleDistance>1.1</fBattleDistance>
 			<fRangedDeathTime>0.35</fRangedDeathTime>
 			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
@@ -3128,9 +3128,9 @@
 			<Button>Art/Interface/Buttons/Units/Africanelephant.dds</Button>
 			<fScale>15.0</fScale>
 			<fInterfaceScale>0.8</fInterfaceScale>
-			<NIF>Art/Units/Africanelephant/Africanelephant.nif</NIF>
+			<NIF>Art/Units/animals/elphant2/elphant.nif</NIF>
 			<KFM>Art/Units/Panther/Panther.kfm</KFM>
-			<SHADERNIF>Art/Units/Africanelephant/Africanelephant.nif</SHADERNIF>
+			<SHADERNIF>Art/Units/animals/elphant2/elphant.nif</SHADERNIF>
 			<fBattleDistance>1.1</fBattleDistance>
 			<fRangedDeathTime>0.35</fRangedDeathTime>
 			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
