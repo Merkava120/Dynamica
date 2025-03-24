@@ -34911,8 +34911,8 @@
 			<Combat>UNITCOMBAT_RECON</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
-			<Invisible>INVISIBLE_HUNTER</Invisible>
-			<SeeInvisible>INVISIBLE_ANIMAL</SeeInvisible>
+			<Invisible>INVISIBLE_HUNTER_1</Invisible>
+			<SeeInvisible>INVISIBLE_PREY_1</SeeInvisible>
 			<Description>Hunter</Description>
 			<Civilopedia>Hunter</Civilopedia>
 			<Strategy>Hunter</Strategy>
@@ -35084,16 +35084,16 @@
 			<iLeaderExperience>0</iLeaderExperience>
 		</UnitInfo>
 		<UnitInfo>
-			<Class>UNITCLASS_HUNTER</Class>
-			<Type>UNIT_HUNTER</Type>
+			<Class>UNITCLASS_HUNTER_ARCHER</Class>
+			<Type>UNIT_HUNTER_ARCHER</Type>
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
 			<Combat>UNITCOMBAT_RECON</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
-			<Invisible>INVISIBLE_HUNTER</Invisible>
-			<SeeInvisible>INVISIBLE_ANIMAL</SeeInvisible>
+			<Invisible>INVISIBLE_HUNTER_1</Invisible>
+			<SeeInvisible>NONE</SeeInvisible>
 			<Description>Archer Hunter</Description>
 			<Civilopedia>Hunter</Civilopedia>
 			<Strategy>Hunter</Strategy>

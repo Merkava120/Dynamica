@@ -15,9 +15,9 @@
 			<Combat>NONE</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA</Invisible>
+			<Invisible>INVISIBLE_SEA_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -134,7 +134,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -226,9 +226,9 @@
 			<Combat>NONE</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_DEEP</Invisible>
+			<Invisible>INVISIBLE_SEA_5</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -344,7 +344,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -428,10 +428,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BEAR</Combat>
+			<Combat>NONE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BEAR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
@@ -548,7 +548,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -637,10 +637,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BEAR</Combat>
+			<Combat>NONE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BEAR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
@@ -757,7 +757,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -846,10 +846,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BEAR</Combat>
+			<Combat>NONE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BEAR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
@@ -966,7 +966,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -1055,7 +1055,7 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BEAR</Combat>
+			<Combat>NONE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
@@ -1175,7 +1175,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -1259,7 +1259,7 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BEAR</Combat>
+			<Combat>NONE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
@@ -1380,7 +1380,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -1469,12 +1469,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BEAR</Combat>
+			<Combat>NONE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BEAR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -1590,7 +1590,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -1679,12 +1679,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BEAR</Combat>
+			<Combat>NONE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BEAR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -1799,7 +1799,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -1883,10 +1883,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BEAR</Combat>
+			<Combat>NONE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BEAR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
@@ -2003,7 +2003,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -2087,10 +2087,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BEAR</Combat>
+			<Combat>NONE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BEAR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
@@ -2207,7 +2207,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -2291,10 +2291,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BEAR</Combat>
+			<Combat>NONE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BEAR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
@@ -2411,7 +2411,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -2503,9 +2503,9 @@
 			<Combat>UNITCOMBAT_BIG_CAT</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NINJA</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_4</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -2621,7 +2621,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -2713,9 +2713,9 @@
 			<Combat>UNITCOMBAT_BIG_CAT</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NINJA</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_4</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -2830,7 +2830,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -2917,9 +2917,9 @@
 			<Combat>UNITCOMBAT_BIG_CAT</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_PREDATOR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -3034,7 +3034,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -3131,9 +3131,9 @@
 			<Combat>UNITCOMBAT_BIG_CAT</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NINJA</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_4</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -3248,7 +3248,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -3345,9 +3345,9 @@
 			<Combat>UNITCOMBAT_BIG_CAT</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_PREDATOR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -3465,7 +3465,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -3562,9 +3562,9 @@
 			<Combat>UNITCOMBAT_BIG_CAT</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NINJA</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_4</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -3679,7 +3679,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -3776,9 +3776,9 @@
 			<Combat>UNITCOMBAT_BIG_CAT</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_PREDATOR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -3893,7 +3893,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -3980,9 +3980,9 @@
 			<Combat>UNITCOMBAT_BIG_CAT</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NINJA</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_4</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -4097,7 +4097,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -4194,9 +4194,9 @@
 			<Combat>UNITCOMBAT_BIG_CAT</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NINJA</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_4</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -4311,7 +4311,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -4398,9 +4398,9 @@
 			<Combat>UNITCOMBAT_BIG_CAT</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NINJA</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_4</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -4515,7 +4515,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -4602,9 +4602,9 @@
 			<Combat>UNITCOMBAT_BIG_CAT</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NINJA</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_4</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -4720,7 +4720,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -4804,10 +4804,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -4925,7 +4925,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -5009,12 +5009,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BIRD</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -5129,7 +5129,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -5218,12 +5218,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NOCTURNAL</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -5338,7 +5338,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -5422,12 +5422,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NOCTURNAL</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -5542,7 +5542,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -5626,12 +5626,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -5746,7 +5746,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -5830,10 +5830,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BIRD</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -5950,7 +5950,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -6034,12 +6034,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -6155,7 +6155,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -6244,10 +6244,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -6365,7 +6365,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -6449,12 +6449,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BIRD</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -6570,7 +6570,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -6659,12 +6659,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BIRD</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -6779,7 +6779,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -6863,10 +6863,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -6983,7 +6983,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -7067,7 +7067,7 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
@@ -7188,7 +7188,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -7277,10 +7277,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -7398,7 +7398,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -7482,12 +7482,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -7603,7 +7603,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -7687,12 +7687,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BIRD</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -7807,7 +7807,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -7891,12 +7891,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BIRD</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -8011,7 +8011,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -8100,12 +8100,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BIRD</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -8221,7 +8221,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -8305,12 +8305,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NOCTURNAL</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -8425,7 +8425,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -8509,12 +8509,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BIRD</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -8630,7 +8630,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -8714,10 +8714,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -8834,7 +8834,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -8918,12 +8918,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_JUNGLE</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -9038,7 +9038,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -9132,12 +9132,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -9252,7 +9252,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -9336,7 +9336,7 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
@@ -9456,7 +9456,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -9545,12 +9545,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BIRD</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -9666,7 +9666,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -9755,12 +9755,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BIRD</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -9875,7 +9875,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -9969,12 +9969,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_JUNGLE</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -10089,7 +10089,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -10183,7 +10183,7 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
@@ -10303,7 +10303,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -10387,12 +10387,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -10507,7 +10507,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -10591,12 +10591,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -10711,7 +10711,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -10795,12 +10795,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -10915,7 +10915,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -10999,12 +10999,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -11119,7 +11119,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -11203,10 +11203,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -11323,7 +11323,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -11407,12 +11407,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -11527,7 +11527,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -11611,12 +11611,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BIRD</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -11732,7 +11732,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -11816,12 +11816,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BIRD</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -11936,7 +11936,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -12025,12 +12025,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -12145,7 +12145,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -12229,12 +12229,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_JUNGLE</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -12349,7 +12349,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -12438,12 +12438,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -12558,7 +12558,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -12642,12 +12642,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BIRD</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_BIRD</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -12763,7 +12763,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -12852,12 +12852,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BOVINE</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -12973,7 +12973,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -13057,12 +13057,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BOVINE</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -13178,7 +13178,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -13272,7 +13272,7 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BOVINE</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
@@ -13393,7 +13393,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -13477,12 +13477,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BOVINE</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -13598,7 +13598,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -13682,12 +13682,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_BOVINE</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -13803,7 +13803,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -13900,9 +13900,9 @@
 			<Combat>UNITCOMBAT_CROCODILE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_CROCODILE</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -14018,7 +14018,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -14105,9 +14105,9 @@
 			<Combat>UNITCOMBAT_CROCODILE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_CROCODILE</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -14223,7 +14223,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -14310,9 +14310,9 @@
 			<Combat>UNITCOMBAT_CROCODILE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_CROCODILE</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -14428,7 +14428,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -14515,9 +14515,9 @@
 			<Combat>UNITCOMBAT_CROCODILE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_CROCODILE</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -14633,7 +14633,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -14720,9 +14720,9 @@
 			<Combat>UNITCOMBAT_CROCODILE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_CROCODILE</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -14838,7 +14838,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -14925,9 +14925,9 @@
 			<Combat>UNITCOMBAT_CROCODILE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_CROCODILE</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -15043,7 +15043,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -15135,9 +15135,9 @@
 			<Combat>UNITCOMBAT_CROCODILE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_CROCODILE</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -15253,7 +15253,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -15345,9 +15345,9 @@
 			<Combat>UNITCOMBAT_CROCODILE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_CROCODILE</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -15463,7 +15463,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -15552,12 +15552,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DEER</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -15673,7 +15673,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -15762,12 +15762,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DEER</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -15883,7 +15883,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -15972,12 +15972,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DEER</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -16093,7 +16093,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -16182,12 +16182,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DEER</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -16303,7 +16303,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -16392,12 +16392,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DEER</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -16513,7 +16513,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -16602,12 +16602,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DEER</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -16723,7 +16723,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -16812,12 +16812,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DEER</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -16933,7 +16933,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -16967,7 +16967,12 @@
 			<iAnimalCombat>0</iAnimalCombat>
 			<iHillsAttack>0</iHillsAttack>
 			<iHillsDefense>0</iHillsDefense>
-			<TerrainNatives/>
+			<TerrainNatives>
+				<TerrainNative>
+					<TerrainType>TERRAIN_STEPPE</TerrainType>
+					<bTerrainNative>1</bTerrainNative>
+				</TerrainNative>
+			</TerrainNatives>
 			<FeatureNatives/>
 			<TerrainAttacks/>
 			<TerrainDefenses/>
@@ -17017,12 +17022,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DEER</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -17137,7 +17142,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -17221,12 +17226,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DOG</Combat>
+			<Combat>UNITCOMBAT_PREDATOR</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -17341,7 +17346,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -17425,12 +17430,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DOG</Combat>
+			<Combat>UNITCOMBAT_PREDATOR</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_PREDATOR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -17545,7 +17550,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -17634,12 +17639,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DOG</Combat>
+			<Combat>UNITCOMBAT_PREDATOR</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_PREDATOR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -17755,7 +17760,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -17844,12 +17849,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DOG</Combat>
+			<Combat>UNITCOMBAT_PREDATOR</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_PREDATOR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -17965,7 +17970,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -18049,12 +18054,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DOG</Combat>
+			<Combat>UNITCOMBAT_PREDATOR</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_PREDATOR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -18170,7 +18175,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -18254,12 +18259,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DOG</Combat>
+			<Combat>UNITCOMBAT_PREDATOR</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_PREDATOR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -18375,7 +18380,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -18459,12 +18464,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DOG</Combat>
+			<Combat>UNITCOMBAT_PREDATOR</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -18579,7 +18584,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -18668,12 +18673,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DOG</Combat>
+			<Combat>UNITCOMBAT_PREDATOR</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_PREDATOR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -18788,7 +18793,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -18882,12 +18887,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DOG</Combat>
+			<Combat>UNITCOMBAT_PREDATOR</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_PREDATOR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -19003,7 +19008,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -19087,12 +19092,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DOG</Combat>
+			<Combat>UNITCOMBAT_PREDATOR</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -19207,7 +19212,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -19291,12 +19296,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DOG</Combat>
+			<Combat>UNITCOMBAT_PREDATOR</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_PREDATOR</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -19412,7 +19417,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -19496,12 +19501,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DOLPHIN</Combat>
+			<Combat>UNITCOMBAT_WHALE</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_SEA_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -19617,7 +19622,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -19701,12 +19706,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_DOLPHIN</Combat>
+			<Combat>UNITCOMBAT_WHALE</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA_NINJA</Invisible>
+			<Invisible>INVISIBLE_SEA_4</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -19821,7 +19826,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -19910,7 +19915,7 @@
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -20026,7 +20031,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -20115,7 +20120,7 @@
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -20230,7 +20235,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -20319,7 +20324,7 @@
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -20434,7 +20439,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -20518,12 +20523,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_FIERCE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_DANGEROUS_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -20638,7 +20643,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -20722,12 +20727,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_FIERCE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_DANGEROUS_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -20842,7 +20847,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -20931,12 +20936,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_FIERCE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_DANGEROUS_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -21051,7 +21056,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -21135,12 +21140,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_FIERCE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_DANGEROUS_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -21255,7 +21260,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -21339,12 +21344,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_FIERCE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_DANGEROUS_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -21459,7 +21464,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -21546,7 +21551,7 @@
 			<Combat>UNITCOMBAT_FISH</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA</Invisible>
+			<Invisible>INVISIBLE_SEA_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -21664,7 +21669,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -21751,7 +21756,7 @@
 			<Combat>UNITCOMBAT_FISH</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA</Invisible>
+			<Invisible>INVISIBLE_SEA_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -21869,7 +21874,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -21956,9 +21961,9 @@
 			<Combat>UNITCOMBAT_FISH</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_SEA_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -22073,7 +22078,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -22160,9 +22165,9 @@
 			<Combat>UNITCOMBAT_FISH</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_SEA_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -22277,7 +22282,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -22364,9 +22369,9 @@
 			<Combat>UNITCOMBAT_FISH</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA</Invisible>
+			<Invisible>INVISIBLE_SEA_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -22481,7 +22486,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -22568,9 +22573,9 @@
 			<Combat>UNITCOMBAT_FISH</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA</Invisible>
+			<Invisible>INVISIBLE_SEA_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -22686,7 +22691,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -22770,12 +22775,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_LARGE_DEER</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -22891,7 +22896,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -22975,12 +22980,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_LARGE_DEER</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -23096,7 +23101,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -23180,12 +23185,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_LARGE_DEER</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -23301,7 +23306,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -23385,12 +23390,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_LARGE_LIZARD</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_JUNGLE</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -23505,7 +23510,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -23589,12 +23594,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_LARGE_LIZARD</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_JUNGLE</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -23709,7 +23714,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -23793,12 +23798,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_LARGE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -23913,7 +23918,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -23997,12 +24002,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_LARGE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -24118,7 +24123,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -24202,12 +24207,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_LARGE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -24323,7 +24328,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -24407,12 +24412,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_LARGE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -24527,7 +24532,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -24611,12 +24616,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_LARGE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -24731,7 +24736,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -24815,12 +24820,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_LARGE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -24936,7 +24941,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -24970,7 +24975,12 @@
 			<iAnimalCombat>0</iAnimalCombat>
 			<iHillsAttack>0</iHillsAttack>
 			<iHillsDefense>0</iHillsDefense>
-			<TerrainNatives/>
+			<TerrainNatives>
+				<TerrainNative>
+					<TerrainType>TERRAIN_STEPPE</TerrainType>
+					<bTerrainNative>1</bTerrainNative>
+				</TerrainNative>
+			</TerrainNatives>
 			<FeatureNatives/>
 			<TerrainAttacks/>
 			<TerrainDefenses/>
@@ -25020,12 +25030,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_LARGE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_LARGE_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -25141,7 +25151,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -25230,10 +25240,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_JUNGLE</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -25350,7 +25360,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -25434,12 +25444,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -25554,7 +25564,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -25638,12 +25648,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -25758,7 +25768,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -25842,10 +25852,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -25962,7 +25972,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -26046,12 +26056,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -26166,7 +26176,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -26250,12 +26260,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -26370,7 +26380,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -26454,12 +26464,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -26575,7 +26585,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -26659,12 +26669,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -26780,7 +26790,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -26864,12 +26874,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -26984,7 +26994,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -27018,7 +27028,12 @@
 			<iAnimalCombat>0</iAnimalCombat>
 			<iHillsAttack>0</iHillsAttack>
 			<iHillsDefense>0</iHillsDefense>
-			<TerrainNatives/>
+			<TerrainNatives>
+				<TerrainNative>
+					<TerrainType>TERRAIN_STEPPE</TerrainType>
+					<bTerrainNative>1</bTerrainNative>
+				</TerrainNative>
+			</TerrainNatives>
 			<FeatureNatives/>
 			<TerrainAttacks/>
 			<TerrainDefenses/>
@@ -27068,12 +27083,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -27188,7 +27203,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -27272,12 +27287,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_JUNGLE</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -27393,7 +27408,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -27482,12 +27497,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_SEA_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -27602,7 +27617,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -27686,12 +27701,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -27806,7 +27821,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -27890,12 +27905,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -28010,7 +28025,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -28094,12 +28109,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_MIDSIZE_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -28214,7 +28229,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -28308,12 +28323,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PIG</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -28428,7 +28443,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -28463,7 +28478,12 @@
 			<iHillsAttack>0</iHillsAttack>
 			<iHillsDefense>0</iHillsDefense>
 			<TerrainNatives/>
-			<FeatureNatives/>
+			<FeatureNatives>
+				<FeatureNative>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<bFeatureNative>1</bFeatureNative>
+				</FeatureNative>
+			</FeatureNatives>
 			<TerrainAttacks/>
 			<TerrainDefenses/>
 			<FeatureAttacks/>
@@ -28512,12 +28532,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PIG</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -28633,7 +28653,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -28717,12 +28737,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PIG</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -28838,7 +28858,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -28927,12 +28947,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PIG</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -29048,7 +29068,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -29137,12 +29157,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PIG</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -29258,7 +29278,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -29342,10 +29362,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PIG</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -29463,7 +29483,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -29547,12 +29567,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PIG</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -29668,7 +29688,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -29752,12 +29772,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PIG</Combat>
+			<Combat>UNITCOMBAT_MID_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -29872,7 +29892,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -29961,12 +29981,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PRIMATE</Combat>
+			<Combat>UNITCOMBAT_DANGEROUS_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -30082,7 +30102,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -30166,12 +30186,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PRIMATE</Combat>
+			<Combat>UNITCOMBAT_DANGEROUS_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_JUNGLE</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -30287,7 +30307,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -30371,12 +30391,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PRIMATE</Combat>
+			<Combat>UNITCOMBAT_DANGEROUS_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -30492,7 +30512,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -30576,12 +30596,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PRIMATE</Combat>
+			<Combat>UNITCOMBAT_DANGEROUS_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -30697,7 +30717,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -30781,12 +30801,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PRIMATE</Combat>
+			<Combat>UNITCOMBAT_DANGEROUS_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -30902,7 +30922,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -30991,12 +31011,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PRIMATE</Combat>
+			<Combat>UNITCOMBAT_DANGEROUS_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NOCTURNAL</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -31112,7 +31132,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -31201,12 +31221,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PRIMATE</Combat>
+			<Combat>UNITCOMBAT_DANGEROUS_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -31322,7 +31342,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -31411,12 +31431,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_PRIMATE</Combat>
+			<Combat>UNITCOMBAT_DANGEROUS_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -31532,7 +31552,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -31631,7 +31651,7 @@
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -31747,7 +31767,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -31841,7 +31861,7 @@
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -31956,7 +31976,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -32045,7 +32065,7 @@
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -32160,7 +32180,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -32247,9 +32267,9 @@
 			<Combat>UNITCOMBAT_RHINO</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_JUNGLE</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -32364,7 +32384,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -32458,7 +32478,7 @@
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -32574,7 +32594,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -32666,9 +32686,9 @@
 			<Combat>UNITCOMBAT_SHARK</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA_NINJA</Invisible>
+			<Invisible>INVISIBLE_SEA_4</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -32783,7 +32803,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -32870,9 +32890,9 @@
 			<Combat>UNITCOMBAT_SHARK</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA_PREDATOR</Invisible>
+			<Invisible>INVISIBLE_SEA_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -32988,7 +33008,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -33075,9 +33095,9 @@
 			<Combat>UNITCOMBAT_SHARK</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA_PREDATOR</Invisible>
+			<Invisible>INVISIBLE_SEA_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>1</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -33193,7 +33213,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -33285,9 +33305,9 @@
 			<Combat>UNITCOMBAT_SHARK</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA</Invisible>
+			<Invisible>INVISIBLE_SEA_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -33403,7 +33423,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -33492,12 +33512,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NOCTURNAL</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -33612,7 +33632,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -33696,12 +33716,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -33816,7 +33836,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -33900,10 +33920,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_GAME</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -34021,7 +34041,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -34105,12 +34125,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NOCTURNAL</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -34225,7 +34245,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -34309,12 +34329,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -34429,7 +34449,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -34513,12 +34533,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -34633,7 +34653,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -34717,12 +34737,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NOCTURNAL</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -34837,7 +34857,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -34921,12 +34941,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NOCTURNAL</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -35041,7 +35061,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -35125,12 +35145,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -35245,7 +35265,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -35329,12 +35349,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_NOCTURNAL</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -35449,7 +35469,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -35533,12 +35553,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -35653,7 +35673,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -35737,12 +35757,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -35857,7 +35877,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -35941,12 +35961,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_SEA_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -36062,7 +36082,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -36146,12 +36166,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<Invisible/>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -36266,7 +36286,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -36350,12 +36370,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_MAMMAL</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -36470,7 +36490,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -36554,12 +36574,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_REPTILE</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_JUNGLE</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -36674,7 +36694,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -36768,12 +36788,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_REPTILE</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_JUNGLE</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -36888,7 +36908,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -36977,12 +36997,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_REPTILE</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -37098,7 +37118,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -37182,12 +37202,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_REPTILE</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_SEA_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -37303,7 +37323,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -37387,10 +37407,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_REPTILE</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -37508,7 +37528,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -37592,10 +37612,10 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SMALL_REPTILE</Combat>
+			<Combat>UNITCOMBAT_SMALL_GAME</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
 			<SeeInvisible>NONE</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
@@ -37713,7 +37733,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -37800,9 +37820,9 @@
 			<Combat>UNITCOMBAT_SNAKE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SNAKE</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_2</Invisible>
 			<bRevealInOpen>1</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -37917,7 +37937,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -38009,9 +38029,9 @@
 			<Combat>UNITCOMBAT_SNAKE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SNAKE</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -38126,7 +38146,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -38213,9 +38233,9 @@
 			<Combat>UNITCOMBAT_SNAKE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SNAKE</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -38330,7 +38350,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -38422,9 +38442,9 @@
 			<Combat>UNITCOMBAT_SNAKE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SNAKE</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -38540,7 +38560,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -38627,9 +38647,9 @@
 			<Combat>UNITCOMBAT_SNAKE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SNAKE</Invisible>
+			<Invisible>INVISIBLE_PREDATOR_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion>PROMOTION_AMBUSHING</InvisiblePromotion>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -38745,7 +38765,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -38829,12 +38849,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SPIDER</Combat>
+			<Combat>NONE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ANIMAL</Invisible>
+			<Invisible>INVISIBLE_PREY_1</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -38949,7 +38969,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -39033,12 +39053,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SPIDER</Combat>
+			<Combat>NONE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_PREY_3</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -39153,7 +39173,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -39247,12 +39267,12 @@
 			<UniqueNames/>
 			<Special>NONE</Special>
 			<Capture>NONE</Capture>
-			<Combat>UNITCOMBAT_SPIDER</Combat>
+			<Combat>NONE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_JUNGLE</Invisible>
+			<Invisible>INVISIBLE_PREY_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -39367,7 +39387,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -39464,9 +39484,9 @@
 			<Combat>UNITCOMBAT_WHALE</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_SEA_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -39582,7 +39602,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -39669,9 +39689,9 @@
 			<Combat>UNITCOMBAT_WHALE</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_DEEP</Invisible>
+			<Invisible>INVISIBLE_SEA_5</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -39786,7 +39806,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -39878,9 +39898,9 @@
 			<Combat>UNITCOMBAT_WHALE</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_SEA_ELUSIVE</Invisible>
+			<Invisible>INVISIBLE_SEA_2</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -39995,7 +40015,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>
@@ -40087,9 +40107,9 @@
 			<Combat>UNITCOMBAT_WHALE</Combat>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<Invisible>INVISIBLE_DEEP</Invisible>
+			<Invisible>INVISIBLE_SEA_5</Invisible>
 			<bRevealInOpen>0</bRevealInOpen>
-			<SeeInvisible>INVISIBLE_HUNTER</SeeInvisible>
+			<SeeInvisible>INVISIBLE_HUNTER_1</SeeInvisible>
 			<bDefendWhenInvisible>0</bDefendWhenInvisible>
 			<InvisiblePromotion/>
 			<AlertPromotion>PROMOTION_ALERTED</AlertPromotion>
@@ -40204,7 +40224,7 @@
 			<iAirRange>0</iAirRange>
 			<iAirUnitCap>0</iAirUnitCap>
 			<iDropRange>0</iDropRange>
-			<iNukeRange>0</iNukeRange>
+			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>0</iWorkRate>
 			<iBaseDiscover>0</iBaseDiscover>
 			<iDiscoverMultiplier>0</iDiscoverMultiplier>

@@ -58,33 +58,18 @@
 		</UnitCombatInfo>
 		<!-- merkava120 dynamica: animal unitcombats -->
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_BIG_CAT</Type>
-			<Description>Big Cats</Description>
+			<Type>UNITCOMBAT_SMALL_GAME</Type>
+			<Description>Small Game</Description>
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_DOG</Type>
-			<Description>Dogs</Description>
+			<Type>UNITCOMBAT_MID_GAME</Type>
+			<Description>Mid-size Game</Description>
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_BEAR</Type>
-			<Description>Bears</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
-			<Type>UNITCOMBAT_BIRD</Type>
-			<Description>Birds</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
-			<Type>UNITCOMBAT_FISH</Type>
-			<Description>Fish</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
-			<Type>UNITCOMBAT_RHINO</Type>
-			<Description>Rhinos</Description>
+			<Type>UNITCOMBAT_LARGE_GAME</Type>
+			<Description>Large Game</Description>
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
@@ -93,33 +78,28 @@
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_DEER</Type>
-			<Description>Deer</Description>
+			<Type>UNITCOMBAT_RHINO</Type>
+			<Description>Rhino</Description>
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_LARGE_DEER</Type>
-			<Description>Large Deer</Description>
+			<Type>UNITCOMBAT_DANGEROUS_GAME</Type>
+			<Description>Dangerous Game</Description>
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_BOVINE</Type>
-			<Description>Bovines</Description>
+			<Type>UNITCOMBAT_PREDATOR</Type>
+			<Description>Predators</Description>
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_SMALL_MAMMAL</Type>
-			<Description>Small Mammals</Description>
+			<Type>UNITCOMBAT_BIG_CAT</Type>
+			<Description>Big Cats</Description>
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_SMALL_REPTILE</Type>
-			<Description>Small Reptiles</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
-			<Type>UNITCOMBAT_SNAKE</Type>
-			<Description>Snakes</Description>
+			<Type>UNITCOMBAT_FISH</Type>
+			<Description>Fish</Description>
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
@@ -128,33 +108,13 @@
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
+			<Type>UNITCOMBAT_SNAKE</Type>
+			<Description>Snake</Description>
+			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
+		</UnitCombatInfo>
+		<UnitCombatInfo>
 			<Type>UNITCOMBAT_WHALE</Type>
 			<Description>Whales</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
-			<Type>UNITCOMBAT_DOLPHIN</Type>
-			<Description>Dolphins</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
-			<Type>UNITCOMBAT_PIG</Type>
-			<Description>Pigs</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
-			<Type>UNITCOMBAT_PRIMATE</Type>
-			<Description>Primates</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
-			<Type>UNITCOMBAT_MIDSIZE_MAMMAL</Type>
-			<Description>Mid-size Mammals</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
-			<Type>UNITCOMBAT_LARGE_LIZARD</Type>
-			<Description>Large Lizards</Description>
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
@@ -163,19 +123,9 @@
 			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_FIERCE_MAMMAL</Type>
-			<Description>Fierce Mammals</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
-			<Type>UNITCOMBAT_SPIDER</Type>
-			<Description>Spiders</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
-			<Type>UNITCOMBAT_LARGE_MAMMAL</Type>
-			<Description>Large Mammals</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Formation.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,2</Button>
+			<Type>UNITCOMBAT_HUNTER</Type>
+			<Description>TXT_KEY_UNITCOMBAT_RECON</Description>
+			<Button>,Art/Interface/Buttons/Promotions/Recon_Units.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,7</Button>
 		</UnitCombatInfo>
 	</UnitCombatInfos>
 </Civ4UnitCombatInfos>

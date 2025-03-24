@@ -14,90 +14,81 @@
 			<Type>INVISIBLE_STEALTH</Type>
 			<Description>TXT_KEY_INVISIBLE_STEALTH_NAVY</Description>
 		</InvisibleInfo>
-		<!-- merkava120 animal invisibility -->
-		<!-- animals that try to avoid humans, but are easily spotted by even the greenest hunter -->
 		<InvisibleInfo>
-			<Type>INVISIBLE_ANIMAL</Type>
-			<Description>Cautious Animals</Description>
-		</InvisibleInfo>
-		<!-- the next few refer to specific groups that require specific skills -->
-		<InvisibleInfo>
-			<Type>INVISIBLE_BIRD</Type>
-			<Description>Birds</Description>
+			<Type>INVISIBLE_HUNTER_1</Type>
+			<Description>Hunters I</Description>
 		</InvisibleInfo>
 		<InvisibleInfo>
-			<Type>INVISIBLE_BEAR</Type>
-			<Description>Bears</Description>
+			<Type>INVISIBLE_HUNTER_2</Type>
+			<Description>Hunters II</Description>
 		</InvisibleInfo>
 		<InvisibleInfo>
-			<Type>INVISIBLE_JUNGLE</Type>
-			<Description>Jungle Animals</Description>
+			<Type>INVISIBLE_HUNTER_3</Type>
+			<Description>Hunters III</Description>
 		</InvisibleInfo>
 		<InvisibleInfo>
-			<Type>INVISIBLE_SNAKE</Type>
-			<Description>Snakes</Description>
+			<Type>INVISIBLE_HUNTER_4</Type>
+			<Description>Hunters IV</Description>
 		</InvisibleInfo>
 		<InvisibleInfo>
-			<Type>INVISIBLE_CROCODILE</Type>
-			<Description>Crocodiles</Description>
+			<Type>INVISIBLE_HUNTER_5</Type>
+			<Description>Hunters V</Description>
 		</InvisibleInfo>
 		<InvisibleInfo>
-			<Type>INVISIBLE_NOCTURNAL</Type>
-			<Description>Nocturnal Animals</Description>
-		</InvisibleInfo>
-		<!-- typical hunting targets, require some tracking skill -->
-		<InvisibleInfo>
-			<Type>INVISIBLE_GAME</Type>
-			<Description>Tracked Animals</Description>
-		</InvisibleInfo>
-		<!-- same for fishing -->
-		<InvisibleInfo>
-			<Type>INVISIBLE_SEA</Type>
-			<Description>Sea Animals</Description>
-		</InvisibleInfo>
-		<!-- regular predators -->
-		<InvisibleInfo>
-			<Type>INVISIBLE_PREDATOR</Type>
-			<Description>Predators</Description>
-		</InvisibleInfo>
-		<!-- same for fishing -->
-		<InvisibleInfo>
-			<Type>INVISIBLE_SEA_PREDATOR</Type>
-			<Description>Sea Predators</Description>
-		</InvisibleInfo>
-		<!-- more difficult to catch / spot -->
-		<InvisibleInfo>
-			<Type>INVISIBLE_ELUSIVE</Type>
-			<Description>Elusive Animals</Description>
-		</InvisibleInfo>
-		<!-- same for fishing -->
-		<InvisibleInfo>
-			<Type>INVISIBLE_SEA_ELUSIVE</Type>
-			<Description>Elusive Sea Animals</Description>
-		</InvisibleInfo>
-		<!-- dangerous predators -->
-		<InvisibleInfo>
-			<Type>INVISIBLE_NINJA</Type>
-			<Description>Ambush Predators</Description>
+			<Type>INVISIBLE_PREDATOR_1</Type>
+			<Description>Predators I</Description>
 		</InvisibleInfo>
 		<InvisibleInfo>
-			<Type>INVISIBLE_SEA_NINJA</Type>
-			<Description>Ambush Sea Predators</Description>
+			<Type>INVISIBLE_PREDATOR_2</Type>
+			<Description>Predators II</Description>
 		</InvisibleInfo>
-		<!-- only the best oceangoing hunters can catch these -->
 		<InvisibleInfo>
-			<Type>INVISIBLE_DEEP</Type>
-			<Description>Deep Sea Animals</Description>
+			<Type>INVISIBLE_PREDATOR_3</Type>
+			<Description>Predators III</Description>
 		</InvisibleInfo>
-		<!-- for hunters -->
 		<InvisibleInfo>
-			<Type>INVISIBLE_HUNTER</Type>
-			<Description>Skilled Hunters</Description>
+			<Type>INVISIBLE_PREDATOR_4</Type>
+			<Description>Predators IV</Description>
 		</InvisibleInfo>
-		<!-- higher level, no animal can spot --> 
 		<InvisibleInfo>
-			<Type>INVISIBLE_STEALTH_HUNTER</Type>
-			<Description>Apex Hunters</Description>
+			<Type>INVISIBLE_PREDATOR_5</Type>
+			<Description>Predators V</Description>
 		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_PREY_1</Type>
+			<Description>Prey I</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_PREY_2</Type>
+			<Description>Prey II</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_PREY_3</Type>
+			<Description>Prey III</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_PREY_4</Type>
+			<Description>Prey IV</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_PREY_5</Type>
+			<Description>Prey V</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_SEA_1</Type>
+			<Description>Sea I</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_SEA_2</Type>
+			<Description>Sea II</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_SEA_3</Type>
+			<Description>Sea III</Description>
+		</InvisibleInfo>	
+		<InvisibleInfo>
+			<Type>INVISIBLE_SEA_4</Type>
+			<Description>Sea IV</Description>
+		</InvisibleInfo>		
 	</InvisibleInfos>
 </Civ4InvisibleInfos>

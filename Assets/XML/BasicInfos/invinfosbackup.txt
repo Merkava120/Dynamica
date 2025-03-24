@@ -1,0 +1,120 @@
+Previous Invisible Infos
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+<Civ4InvisibleInfos xmlns="x-schema:CIV4BasicInfoSchema.xml">
+	<InvisibleInfos>
+		<InvisibleInfo>
+			<Type>INVISIBLE_SUBMARINE</Type>
+			<Description>TXT_KEY_INVISIBLE_SUBMARINE</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_STEALTH</Type>
+			<Description>TXT_KEY_INVISIBLE_STEALTH_NAVY</Description>
+		</InvisibleInfo>
+		<!-- merkava120 animal invisibility -->
+		<!-- animals that try to avoid humans, but are easily spotted by even the greenest hunter -->
+		<InvisibleInfo>
+			<Type>INVISIBLE_ANIMAL</Type>
+			<Description>Cautious Animals</Description>
+		</InvisibleInfo>
+		<!-- the next few refer to specific groups that require specific skills -->
+		<InvisibleInfo>
+			<Type>INVISIBLE_BIRD</Type>
+			<Description>Birds</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_BEAR</Type>
+			<Description>Bears</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_JUNGLE</Type>
+			<Description>Jungle Animals</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_SNAKE</Type>
+			<Description>Snakes</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_CROCODILE</Type>
+			<Description>Crocodiles</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_NOCTURNAL</Type>
+			<Description>Nocturnal Animals</Description>
+		</InvisibleInfo>
+		<!-- typical hunting targets, require some tracking skill -->
+		<InvisibleInfo>
+			<Type>INVISIBLE_GAME</Type>
+			<Description>Tracked Animals</Description>
+		</InvisibleInfo>
+		<!-- same for fishing -->
+		<InvisibleInfo>
+			<Type>INVISIBLE_SEA</Type>
+			<Description>Sea Animals</Description>
+		</InvisibleInfo>
+		<!-- regular predators -->
+		<InvisibleInfo>
+			<Type>INVISIBLE_PREDATOR</Type>
+			<Description>Predators</Description>
+		</InvisibleInfo>
+		<!-- same for fishing -->
+		<InvisibleInfo>
+			<Type>INVISIBLE_SEA_PREDATOR</Type>
+			<Description>Sea Predators</Description>
+		</InvisibleInfo>
+		<!-- more difficult to catch / spot -->
+		<InvisibleInfo>
+			<Type>INVISIBLE_ELUSIVE</Type>
+			<Description>Elusive Animals</Description>
+		</InvisibleInfo>
+		<!-- same for fishing -->
+		<InvisibleInfo>
+			<Type>INVISIBLE_SEA_ELUSIVE</Type>
+			<Description>Elusive Sea Animals</Description>
+		</InvisibleInfo>
+		<!-- dangerous predators -->
+		<InvisibleInfo>
+			<Type>INVISIBLE_NINJA</Type>
+			<Description>Ambush Predators</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_SEA_NINJA</Type>
+			<Description>Ambush Sea Predators</Description>
+		</InvisibleInfo>
+		<!-- only the best oceangoing hunters can catch these -->
+		<InvisibleInfo>
+			<Type>INVISIBLE_DEEP</Type>
+			<Description>Deep Sea Animals</Description>
+		</InvisibleInfo>
+		<!-- for hunters: these are gained through promotions. Animals have their own promotions giving them multiple SeeInvisibles. Hunter invisibilities are basically just tiered.  -->
+		<!-- most animals can spot: -->
+		<InvisibleInfo>
+			<Type>INVISIBLE_HUNTER</Type>
+			<Description>Hunters</Description>
+		</InvisibleInfo>
+		<!-- careful animals can spot: --> 
+		<InvisibleInfo>
+			<Type>INVISIBLE_SKILLED_HUNTER</Type>
+			<Description>Skilled Hunters</Description>
+		</InvisibleInfo>
+		<!-- invisible to most game / prey but not predators: --> 
+		<InvisibleInfo>
+			<Type>INVISIBLE_AMBUSH_HUNTER</Type>
+			<Description>Ambush Hunters</Description>
+		</InvisibleInfo>
+		<!-- invisible to all but the keenest animals -->
+		<InvisibleInfo>
+			<Type>INVISIBLE_STEALTH_HUNTER</Type>
+			<Description>Stealth Hunters</Description>
+		</InvisibleInfo>
+		<!-- maximum invisibility -->
+		<InvisibleInfo>
+			<Type>INVISIBLE_APEX_HUNTER</Type>
+			<Description>Apex Hunters</Description>
+		</InvisibleInfo>
+	</InvisibleInfos>
+</Civ4InvisibleInfos>
