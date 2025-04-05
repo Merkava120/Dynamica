@@ -34912,7 +34912,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Invisible>INVISIBLE_HUNTER_1</Invisible>
-			<SeeInvisible>NONE</SeeInvisible>
+			<SeeInvisible>INVISIBLE_PREY_1</SeeInvisible>
 			<Description>Hunter</Description>
 			<Civilopedia>Hunter</Civilopedia>
 			<Strategy>Hunter</Strategy>
@@ -35021,7 +35021,7 @@
 			<FeatureImpassables />
 			<TerrainPassableTechs />
 			<FeaturePassableTechs />
-			<iCombat>2</iCombat>
+			<iCombat>5</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iAirCombat>0</iAirCombat>
 			<iAirCombatLimit>0</iAirCombatLimit>
